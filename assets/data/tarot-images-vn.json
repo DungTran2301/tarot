@@ -1,0 +1,3478 @@
+{
+  "description": "tarot cards and basic information about them, as well as references to corresponding scans",
+  "cards": [
+    {
+      "name": "The Fool",
+      "number": "0",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m00.jpg",
+      "fortune_telling": [
+        "Theo dõi các dự án mới và khởi đầu mới",
+        "Chuẩn bị đón nhận điều gì đó bằng niềm tin",
+        "Một điều gì đó mới mẻ sẽ đến với bạn; cố gắng đi"
+      ],
+      "keywords": [
+        "sự tự do",
+        "đức tin",
+        "thiếu kinh nghiệm",
+        "sự ngây thơ"
+      ],
+      "meanings": {
+        "light": [
+          "Giải phóng bản thân khỏi giới hạn",
+          "Thể hiện niềm vui và sức sống trẻ trung",
+          "Cởi mở",
+          "Bước nhảy vọt của niềm tin",
+          "Hòa hợp với bản năng của bạn",
+          "Háo hức hoặc tò mò",
+          "Khám phá tiềm năng của bạn",
+          "Chấp nhận sự đổi mới và thay đổi"
+        ],
+        "shadow": [
+          "Là người cả tin và ngây thơ",
+          "Chấp nhận rủi ro không cần thiết",
+          "Không nghiêm túc khi được yêu cầu",
+          "Ngớ ngẩn hoặc mất tập trung",
+          "Thiếu kinh nghiệm",
+          "Không tôn trọng những truyền thống và giới hạn đã có từ lâu đời",
+          "Cư xử không đúng mực"
+        ]
+      },
+      "Archetype": "The Divine Madman",
+      "Hebrew Alphabet": "Aleph/Ox/1",
+      "Numerology": "0 (off the scale; pure potential)",
+      "Elemental": "Air",
+      "Mythical/Spiritual": "Adam before the fall. Christ as a wandering holy madman. Deity wrapped in human flesh. The Holy Spirit.",
+      "Questions to Ask": [
+        "Tôi sẽ làm gì nếu tôi cảm thấy tự do để thực hiện một bước nhảy vọt?",
+        "Tôi sẵn sàng dễ bị tổn thương và cởi mở đến mức nào?",
+        "Kinh nghiệm trong quá khứ có thể giúp ích như thế nào trong tình huống mới này?"
+      ],
+      "nameVn": "Kẻ ngốc"
+    },
+    {
+      "name": "The Magician",
+      "number": "1",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m01.jpg",
+      "fortune_telling": [
+        "Một người đàn ông quyền lực có thể đóng một vai trò nào đó trong ngày của bạn",
+        "Tình hình hiện tại của bạn phải được coi là một phần của kế hoạch lớn hơn nhiều"
+      ],
+      "keywords": [
+        "khả năng",
+        "trao quyền",
+        "hoạt động"
+      ],
+      "meanings": {
+        "light": [
+          "Thực hiện hành động thích hợp",
+          "Nhận được sự hướng dẫn từ quyền lực cao hơn",
+          "Trở thành một kênh ý chí thiêng liêng",
+          "Thể hiện năng lượng nam tính theo những cách phù hợp và mang tính xây dựng",
+          "Là chính mình về mọi mặt"
+        ],
+        "shadow": [
+          "Thổi phồng cái tôi của chính bạn",
+          "Lạm dụng tài năng",
+          "Thao túng hoặc lừa dối người khác",
+          "Quá hung hăng",
+          "Dùng ảo tưởng rẻ tiền để làm mê hoặc người khác",
+          "Từ chối đầu tư thời gian và công sức cần thiết để thành thạo nghề của bạn",
+          "Đi đường tắt"
+        ]
+      },
+      "Archetype": "The Ego/The Self",
+      "Hebrew Alphabet": "Beth/House/2",
+      "Numerology": "1 (origins, unity, seeds)",
+      "Elemental": "The Sun/Mercury",
+      "Mythical/Spiritual": "Thoth, the Egyptian god of wisdom, known to the Greeks as Hermes and to the Romans as Mercury. Christ working miracles. Brahma, the Creator.",
+      "Questions to Ask": [
+        "Tôi được trao quyền để làm gì?",
+        "Khả năng của tôi có thể phát huy tác dụng như thế nào?",
+        "Tôi đang tận dụng tối đa tài năng của mình ở mức độ nào?"
+      ],
+      "nameVn": "ảo thuật gia"
+    },
+    {
+      "name": "The High Priestess",
+      "number": "2",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m02.jpg",
+      "fortune_telling": [
+        "Một người phụ nữ bí ẩn xuất hiện",
+        "Bí mật tình dục có thể lộ diện",
+        "Ai đó biết nhiều hơn những gì họ sẽ tiết lộ"
+      ],
+      "keywords": [
+        "trực giác",
+        "sự phản chiếu",
+        "sự tinh khiết",
+        "sự khởi đầu"
+      ],
+      "meanings": {
+        "light": [
+          "Lắng nghe cảm xúc và trực giác của bạn",
+          "Khám phá tâm linh độc đáo",
+          "Giữ bí mật",
+          "Sẵn sàng tiếp thu",
+          "Phản ánh thay vì hành động",
+          "Quan sát người khác",
+          "Bảo quản độ tinh khiết"
+        ],
+        "shadow": [
+          "Xa cách",
+          "Bị ám ảnh bởi những bí mật và âm mưu",
+          "Từ chối sự hướng dẫn từ tinh thần hoặc trực giác",
+          "Tiết lộ tất cả",
+          "Bỏ qua cảm xúc ruột thịt",
+          "Từ chối tham gia, ngay cả khi việc tham gia là phù hợp"
+        ]
+      },
+      "Archetype": "The Virgin/The Maiden",
+      "Hebrew Alphabet": "Gimel/Camel/3",
+      "Numerology": "2 (division, debate, duality)",
+      "Elemental": "The Moon",
+      "Mythical/Spiritual": "The feminine aspect of divinity, particularity when expressed through virginity, as with the Virgin Mary or Isis.",
+      "Questions to Ask": [
+        "Một kẻ nổi loạn chống lại truyền thống có thể làm gì?",
+        "Điều gì chưa được nói hoặc tiết lộ?",
+        "Có thể đạt được điều gì bằng cách quan sát và phản ánh?"
+      ],
+      "nameVn": "Nữ tư tế tối cao"
+    },
+    {
+      "name": "The Empress",
+      "number": "3",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m03.jpg",
+      "fortune_telling": [
+        "Mang thai là điều sắp xảy ra",
+        "Cơ hội vướng vào tình dục xa hoa đang đến",
+        "Cẩn thận với xu hướng nghiện"
+      ],
+      "keywords": [
+        "khả năng sinh sản",
+        "năng suất",
+        "độ chín",
+        "nuôi dưỡng"
+      ],
+      "meanings": {
+        "light": [
+          "Nuôi dưỡng bản thân và những người khác",
+          "Mang trái cây",
+          "Tôn vinh cơ thể của bạn",
+          "Mang theo con cái (nghĩa đen hoặc nghĩa bóng)",
+          "Tận hưởng sự sang trọng",
+          "Làm mẹ những người xung quanh bạn theo những cách tích cực",
+          "Tận hưởng tình dục của bạn",
+          "Hoàn thành công việc"
+        ],
+        "shadow": [
+          "Ăn quá nhiều",
+          "Tham lam",
+          "Làm nghẹt thở ai đó bằng sự chú ý",
+          "Làm suy yếu ai đó bằng cách bảo vệ quá mức",
+          "Ức chế năng suất bằng cách ám ảnh về năng suất",
+          "Bị vượt qua bởi hành vi gây nghiện"
+        ]
+      },
+      "Archetype": "The Mother",
+      "Hebrew Alphabet": "Daleth/Door/4",
+      "Numerology": "3 (expression, productivity, output)",
+      "Elemental": "Venus",
+      "Mythical/Spiritual": "Gaia, Mother Earth, Ishtar, DemeterÑmature, reproductive female divinity in every form. Also Aphrodite and Turan. ",
+      "Questions to Ask": [
+        "Một người mẹ quan tâm và có khả năng sẽ làm gì?",
+        "Tôi có thể làm gì để nhấn mạnh sự tăng trưởng?",
+        "Làm thế nào tôi có thể tôn vinh sự gợi cảm và tình dục của chính mình?"
+      ],
+      "nameVn": "Hoàng hậu"
+    },
+    {
+      "name": "The Emperor",
+      "number": "4",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m04.jpg",
+      "fortune_telling": [
+        "Bóng dáng người cha đến",
+        "Một người chủ hoặc nhân vật có thẩm quyền mới sẽ ra lệnh cho bạn",
+        "Mong đợi kỷ luật hoặc sửa chữa trong tương lai gần"
+      ],
+      "keywords": [
+        "thẩm quyền",
+        "quy định",
+        "phương hướng",
+        "cấu trúc"
+      ],
+      "meanings": {
+        "light": [
+          "Thực thi thẩm quyền",
+          "Xác định giới hạn",
+          "Chỉ đạo luồng công việc",
+          "Truyền đạt các hướng dẫn rõ ràng",
+          "Kiểm soát được bản thân và người khác",
+          "Kiềm chế sự nam tính hung hãn bằng trí tuệ và kinh nghiệm"
+        ],
+        "shadow": [
+          "Quản lý vi mô",
+          "Đè bẹp sự sáng tạo của người khác bằng cách tiếp cận cứng rắn và sắt đá",
+          "Insisting on getting your own way",
+          "Giả sử có tư duy độc tài",
+          "Sử dụng vũ lực công khai để đạt được mục tiêu và duy trì trật tự"
+        ]
+      },
+      "Archetype": "The Father",
+      "Hebrew Alphabet": "He[as]/Window/5, or in some decks, Tzaddi/Fish hook/90",
+      "Numerology": "4 (stability, equality, persistence)",
+      "Elemental": "Mars/Aries",
+      "Mythical/Spiritual": "Masculine gods, including the Hebrew God, the Christian God, Allah, and Zeus. Patriarchs (Abraham) and lawgivers (Moses). Vishnu, the Preserver.",
+      "Questions to Ask": [
+        "Vấn đề kiểm soát hoặc quy định tác động đến tình huống này như thế nào?",
+        "Một người cha nhân hậu nhưng nghiêm khắc sẽ làm gì?",
+        "Điều gì cần kiểm soát nhiều hơn?"
+      ],
+      "nameVn": "Hoàng đế"
+    },
+    {
+      "name": "The Hierophant",
+      "number": "5",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m05.jpg",
+      "fortune_telling": [
+        "Dự kiến ​​sẽ bị bắt trong một hành vi sai trái và bị trừng phạt tương ứng",
+        "Cầu xin sự tha thứ và thú nhận những lỗi lầm",
+        "Một người đàn ông giàu kinh nghiệm hơn, người lãnh đạo tinh thần hoặc hình ảnh người cha sẽ bước vào cuộc đời bạn"
+      ],
+      "keywords": [
+        "hướng dẫn",
+        "kiến thức",
+        "sự mặc khải",
+        "niềm tin"
+      ],
+      "meanings": {
+        "light": [
+          "Giảng dạy hoặc hướng dẫn người khác",
+          "Tìm kiếm sự thật",
+          "Yêu cầu sự hướng dẫn từ một quyền lực cao hơn",
+          "Thừa nhận sự khôn ngoan và kinh nghiệm của người khác",
+          "Tuyên thệ",
+          "Tham gia vào các nghi lễ chân thành",
+          "Tình nguyện"
+        ],
+        "shadow": [
+          "Sử dụng kinh nghiệm như một phương tiện để thao túng hoặc dẫn dắt người khác",
+          "Sống giáo điều",
+          "Đề cao truyền thống hơn những gì thiết thực hoặc cần thiết",
+          "Trải qua những chuyển động của những nghi lễ trống rỗng",
+          "Che giấu trí tuệ",
+          "Hạn chế tiếp cận các chân lý tâm linh hoặc các vị thần"
+        ]
+      },
+      "Archetype": "The Guardian/The Church/Faith",
+      "Hebrew Alphabet": "Vau/Nail or Spike/6",
+      "Numerology": "5 (instability, resistance, confrontation, evolution)",
+      "Elemental": "Taurus/Earth",
+      "Mythical/Spiritual": "The Christ, the Apostle Peter, Buddha, Mohammed. Popes, priests, and intercessors of every faith and tradition",
+      "Questions to Ask": [
+        "Truyền thống hoặc tôn giáo có thể đóng vai trò gì trong tình huống này?",
+        "Ai là tác giả của các quy tắc? Ai thực thi chúng? Tại sao?",
+        "Người hướng dẫn có kinh nghiệm có thể tác động đến tình huống này như thế nào?"
+      ],
+      "nameVn": "Người Hierophant"
+    },
+    {
+      "name": "The Lovers",
+      "number": "6",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m06.jpg",
+      "fortune_telling": [
+        "Một mối quan hệ cá nhân hoặc nghề nghiệp mới nảy nở",
+        "Cơ hội tình dục rất nhiều",
+        "Không ngờ bạn thân lại trở thành người yêu"
+      ],
+      "keywords": [
+        "tình yêu",
+        "niềm đam mê",
+        "đoàn kết",
+        "sự lựa chọn"
+      ],
+      "meanings": {
+        "light": [
+          "Đang yêu",
+          "Thể hiện tình yêu của bạn với người khác",
+          "Thể hiện niềm đam mê hoặc cảm xúc lãng mạn",
+          "Liên kết bản thân với các nhóm hoặc những người có cùng chí hướng",
+          "Đưa mọi người lại với nhau",
+          "Đưa ra những quyết định sáng suốt"
+        ],
+        "shadow": [
+          "Niềm đam mê suy nhược",
+          "Cho phép ham muốn tình yêu không lành mạnh thúc đẩy hành vi phá hoại",
+          "Phá vỡ sự đoàn kết",
+          "Làm việc chống lại lợi ích tốt nhất của những người quan tâm đến bạn",
+          "Những quyết định thiếu sáng suốt"
+        ]
+      },
+      "Archetype": "The Lover/Sexual Awakening",
+      "Hebrew Alphabet": "Zain/Sword/7",
+      "Numerology": "6 (cooperation, collaboration, interaction)",
+      "Elemental": "Gemini",
+      "Mythical/Spiritual": "Obviously, Adam and Eve, who are depicted in RWS-influenced decks. Also Venus and Cupid, Aphrodite and Eros.",
+      "Questions to Ask": [
+        "Điều gì hướng dẫn sự lựa chọn của tôi?",
+        "Trái tim tôi đang dẫn dắt tôi làm gì?",
+        "Quyết định này có thể biến đổi con người tôi như thế nào?"
+      ],
+      "nameVn": "Những người yêu thích"
+    },
+    {
+      "name": "The Chariot",
+      "number": "7",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m07.jpg",
+      "fortune_telling": [
+        "Chiến thắng là điều chắc chắn",
+        "Tiến lên phía trước với mọi kế hoạch",
+        "Coi chừng sự ghen tị của người khác"
+      ],
+      "keywords": [
+        "thăng tiến",
+        "chiến thắng",
+        "chiến thắng",
+        "sự thành công"
+      ],
+      "meanings": {
+        "light": [
+          "Vượt qua rào cản",
+          "Tiến về phía trước với sự tự tin và quyền lực",
+          "Đạt tới đỉnh cao của thành công",
+          "Đắm mình trong vinh quang của thành tựu",
+          "Dẫn dắt nỗ lực đi tới thắng lợi hoàn toàn",
+          "Khẳng định mình là một nhà lãnh đạo xứng đáng"
+        ],
+        "shadow": [
+          "Nghỉ ngơi trên vòng nguyệt quế",
+          "Vượt qua cảm xúc hoặc kỳ vọng của người khác",
+          "Tập trung nhiều hơn vào những thành công trong quá khứ hơn là những cơ hội trong tương lai",
+          "Không kiềm chế được hành vi bốc đồng"
+        ]
+      },
+      "Archetype": "The Victorious Hero",
+      "Hebrew Alphabet": "Cheth/Fence/8",
+      "Numerology": "7 (imagination, inner work, psychology)",
+      "Elemental": "Cancer",
+      "Mythical/Spiritual": "Odysseus. Jason. The search for the Holy Grail. Christ's triumphal entry into Jerusalem.",
+      "Questions to Ask": [
+        "Tôi đã đến mức độ nào? Thử thách tiếp theo của tôi sẽ là gì?",
+        "Làm cách nào tôi có thể sử dụng những thành tựu trong quá khứ để đạt được lợi ích tốt nhất?",
+        "Tiêu chí cho sự thành công thực sự và có ý nghĩa sẽ là gì?"
+      ],
+      "nameVn": "xe ngựa"
+    },
+    {
+      "name": "Strength",
+      "number": "8",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m08.jpg",
+      "fortune_telling": [
+        "Khả năng tự chủ của bạn sẽ bị thử thách",
+        "Một người phụ nữ sẽ tìm cách thay đổi bạn đời hoặc người yêu của mình",
+        "Bạn là người mạnh mẽ, có năng lực"
+      ],
+      "keywords": [
+        "kỷ luật",
+        "sự táo bạo",
+        "kỷ luật tự giác",
+        "quyền lực",
+        "sức sống"
+      ],
+      "meanings": {
+        "light": [
+          "Áp đặt những hạn chế đối với bản thân vì lợi ích của chính bạn",
+          "Đưa niềm đam mê của bạn dưới sự kiểm soát của lý trí",
+          "Chống lại những xung động đi ngược lại lợi ích tốt nhất của bạn",
+          "Hành động táo bạo"
+        ],
+        "shadow": [
+          "Nuông chiều sự yếu đuối dù biết điều đó sẽ hủy hoại sức khỏe và hạnh phúc của bạn",
+          "Đang chìm trong cơn nghiện",
+          "Cho phép bản năng chế ngự và chinh phục bạn",
+          "Không đứng lên khi cần thiết"
+        ]
+      },
+      "Archetype": "The Law",
+      "Hebrew Alphabet": "Lamed/Outstretched Arms/30 or Theth/Snake/9",
+      "Numerology": "8 (movement, work) or 11 = 1 + 1 = 2 (debate, duality)",
+      "Elemental": "Libra or Leo",
+      "Mythical/Spiritual": "Themis or Justitia. Ma'at. Solomon dividing a baby. The Sword of Damocles. The giving of the Ten Commandments.",
+      "Questions to Ask": [
+        "Cuộc sống (hoặc công việc) của bạn cân bằng ở mức độ nào?",
+        "Làm thế nào bạn có thể đạt được tính khách quan cao hơn?",
+        "Hành động nào sẽ công bằng cho tất cả những người liên quan?"
+      ],
+      "nameVn": "sức mạnh"
+    },
+    {
+      "name": "The Hermit",
+      "number": "9",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m09.jpg",
+      "fortune_telling": [
+        "Bắt đầu một thời kỳ cô đơn",
+        "Một đối tác trong một mối quan hệ rời đi",
+        "Việc tìm kiếm tình yêu hay tiền bạc đều không có kết quả"
+      ],
+      "keywords": [
+        "sự cô độc",
+        "kinh nghiệm",
+        "sự tĩnh lặng",
+        "rút tiền"
+      ],
+      "meanings": {
+        "light": [
+          "Trở thành hoặc tìm kiếm một bậc thầy",
+          "Đi rút lui",
+          "Sạc lại pin tinh thần hoặc sáng tạo",
+          "Soi đường cho những người ít kinh nghiệm",
+          "Lùi lại để có được quan điểm"
+        ],
+        "shadow": [
+          "Là một người cô đơn",
+          "Sợ tiếp xúc với người khác",
+          "Trở thành người biết tất cả",
+          "Thổi phồng những tuyên bố về chuyên môn",
+          "Che giấu kỹ năng và tài năng của bạn vì sợ không xứng đáng"
+        ]
+      },
+      "Archetype": "The Holy Man",
+      "Hebrew Alphabet": "Yod/Hand/10",
+      "Numerology": "9 (fullness, readiness, ripeness)",
+      "Elemental": "Virgo",
+      "Mythical/Spiritual": "The Christ, while fasting 40 days in the wilderness. Chronos, the god of time. Father Time. Hermes.",
+      "Questions to Ask": [
+        "Điều gì sẽ xảy ra nếu tôi chỉ rút lui và không thực hiện hành động nào?",
+        "Làm thế nào tôi có thể có được một số quan điểm về tình hình?",
+        "Ai đã đi con đường này trước tôi? Làm thế nào tôi có thể tranh thủ sự giúp đỡ của anh ấy hoặc cô ấy?"
+      ],
+      "nameVn": "ẩn sĩ"
+    },
+    {
+      "name": "Wheel of Fortune",
+      "number": "10",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m10.jpg",
+      "fortune_telling": [
+        "Có những sự việc nằm trong tay ông trời",
+        "Bạn đã từng trải qua điều này trước đây",
+        "Điều gì đã xảy ra sau đó?"
+      ],
+      "keywords": [
+        "may mắn",
+        "sự ngẫu nhiên",
+        "chu kỳ",
+        "nghiệp chướng",
+        "số phận",
+        "cuộc cách mạng"
+      ],
+      "meanings": {
+        "light": [
+          "Cho phép các sự kiện diễn ra",
+          "Nhìn thấy mô hình lớn hơn trong các sự kiện hàng ngày",
+          "Tin tưởng vào vận may của mình",
+          "Theo dõi chu kỳ",
+          "Tin rằng “cái gì đến thì sẽ đến”"
+        ],
+        "shadow": [
+          "Đánh bạc thua tiền",
+          "Từ chối thực hiện phần việc của mình để biến kế hoạch thành hiện thực",
+          "Áp dụng cách tiếp cận mang tính định mệnh đối với cuộc sống",
+          "Đấu tranh với diễn biến tự nhiên của các sự kiện"
+        ]
+      },
+      "Archetype": "The Fates/Destiny",
+      "Hebrew Alphabet": "Koph/Palm/20",
+      "Numerology": "10 (finality, completion) and 10 = 1 + 0 = 1 (seed, opportunity)",
+      "Elemental": "Jupiter",
+      "Mythical/Spiritual": "The God in the Machine. Deus ex Machina. Clotho, Lachesis, and Atropos. Fortuna.",
+      "Questions to Ask": [
+        "Làm thế nào để thử thách này phù hợp với một mô hình lớn hơn?",
+        "May mắn đóng vai trò gì trong hoàn cảnh của tôi?",
+        "Tôi có thể kiểm soát những gì? Làm sao tôi biết khi nào nên từ bỏ quyền kiểm soát?"
+      ],
+      "nameVn": "Vòng quay may mắn"
+    },
+    {
+      "name": "Justice",
+      "number": "11",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m11.jpg",
+      "fortune_telling": [
+        "Phán quyết pháp lý sẽ sớm được đưa ra",
+        "Có người đang đưa ra quyết định",
+        "Bạn cần phải có được sự thật"
+      ],
+      "keywords": [
+        "cân bằng",
+        "pháp luật",
+        "sự công bằng",
+        "tính khách quan"
+      ],
+      "meanings": {
+        "light": [
+          "Đưa ra quyết định khách quan",
+          "Cân nhắc vấn đề một cách cẩn thận trước khi hành động",
+          "Điều chỉnh phản ứng của bạn một cách thích hợp trước một tình huống",
+          "Getting all the facts",
+          "Xem xét bằng chứng",
+          "Đang cân nhắc"
+        ],
+        "shadow": [
+          "Đưa ra những lời chỉ trích gay gắt",
+          "Bị ám ảnh bởi các quy tắc và quy định",
+          "Làm theo sách ngay cả khi làm như vậy có tính phá hoại hoặc phản tác dụng",
+          "Những quyết định nhanh chóng khó hiểu với hành động kịp thời",
+          "Đang phát mục yêu thích"
+        ]
+      },
+      "Archetype": "The Id",
+      "Hebrew Alphabet": "Theth/Snake/9 or Lamed/Outstretched Arms/30",
+      "Numerology": "11 = 1 + 1 = 2 (debate, duality) or 8 (movement, outer work)",
+      "Elemental": "Leo or Libra",
+      "Mythical/Spiritual": "Samson. Hercules. Daniel in the lion's den. The sinless Christ.",
+      "Questions to Ask": [
+        "Làm thế nào tôi có thể nâng cao tính kỷ luật tự giác của mình?",
+        "Những hành vi nào cám dỗ tôi? Làm sao tôi có thể chống lại được?",
+        "Những bản năng nào tôi tiếp tục đấu tranh với ngày hôm nay?"
+      ],
+      "nameVn": "Công lý"
+    },
+    {
+      "name": "The Hanged Man",
+      "number": "12",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m12.jpg",
+      "fortune_telling": [
+        "Kẻ phản bội lộ diện",
+        "Một trong những người bạn của bạn đang chống lại bạn",
+        "Thay đổi cách làm của bạn hoặc gánh chịu hậu quả"
+      ],
+      "keywords": [
+        "sự giác ngộ",
+        "sự hy sinh",
+        "quan điểm",
+        "đình chỉ",
+        "sự đảo ngược"
+      ],
+      "meanings": {
+        "light": [
+          "Nhìn thấy cơ hội phát triển trong những sự kiện khó chịu",
+          "Trải nghiệm sự thay đổi mạnh mẽ trong quan điểm cá nhân",
+          "Tận dụng tối đa sự thay đổi không lường trước được trong cuộc sống hoặc công việc của bạn",
+          "Đình chỉ sự hoài nghi",
+          "Hy sinh"
+        ],
+        "shadow": [
+          "Không thành thật với bản thân và các giá trị của bạn",
+          "Từ chối hy sinh khi thích hợp",
+          "Từ chối thích nghi với hoàn cảnh mới",
+          "Đổ lỗi cho người khác",
+          "Thu lợi từ chi phí của người khác"
+        ]
+      },
+      "Archetype": "The Traitor",
+      "Hebrew Alphabet": "Mem/Water/40",
+      "Numerology": "12 = 1 + 2 = 3 (expression, productivity, output)",
+      "Elemental": "Water",
+      "Mythical/Spiritual": "The Crucified Christ. Isaac as a sacrifice. Prometheus bound. Jonah and the whale. Lazarus. Any hanged or sacrificed god. Judas.",
+      "Questions to Ask": [
+        "Làm thế nào tôi có thể thay đổi hoàn toàn quan điểm của mình?",
+        "Làm thế nào việc bị mắc kẹt thực sự có thể là một điều may mắn được ngụy trang?",
+        "Làm thế nào tôi có thể giúp mình nhìn thấy cái ly đã đầy một nửa?"
+      ],
+      "nameVn": "Người đàn ông bị treo cổ"
+    },
+    {
+      "name": "Death",
+      "number": "13",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m13.jpg",
+      "fortune_telling": [
+        "Một mối quan hệ hoặc bệnh tật kết thúc đột ngột",
+        "Hạn chế đi lại và chấp nhận rủi ro",
+        "Sự u ám và diệt vong chung"
+      ],
+      "keywords": [
+        "kết thúc",
+        "kết luận",
+        "chuyển tiếp",
+        "lối đi",
+        "khởi hành"
+      ],
+      "meanings": {
+        "light": [
+          "Kết thúc một giai đoạn khó chịu của cuộc sống",
+          "Nhận biết và tán dương sự kết thúc của một việc gì đó",
+          "Nghỉ ngơi những thói quen xấu",
+          "Trở thành một con người mới",
+          "Để lại một người, địa điểm hoặc đồ vật cho người khác",
+          "Buông bỏ"
+        ],
+        "shadow": [
+          "Ám ảnh về cái chết và cái chết",
+          "Không chịu từ bỏ những thói quen cũ hoặc những mối quan hệ không lành mạnh",
+          "Khẳng định rằng mọi thứ và mọi người sẽ mãi mãi như vậy",
+          "Không chăm sóc tốt cho bản thân"
+        ]
+      },
+      "Archetype": "Death",
+      "Hebrew Alphabet": "Nun/Fish/50",
+      "Numerology": "13 = 1 + 3 = 4 (stability, persistence)",
+      "Elemental": "Scorpio",
+      "Mythical/Spiritual": "Christ in the tomb. Hades. Hypnos. Thanatos. Stories of journeys into the underworld.",
+      "Questions to Ask": [
+        "Cần gì phải kết thúc?",
+        "Làm thế nào một cái kết thực sự có thể là một điều may mắn trong tình huống này?",
+        "Tiếp theo là gì?"
+      ],
+      "nameVn": "Cái chết"
+    },
+    {
+      "name": "Temperance",
+      "number": "14",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m14.jpg",
+      "fortune_telling": [
+        "Ai đó đang sử dụng ma túy hoặc rượu quá mức",
+        "Đã đến lúc quay lại chế độ ăn kiêng đó"
+      ],
+      "keywords": [
+        "pha trộn",
+        "tổng hợp",
+        "hòa giải",
+        "sự kết hợp",
+        "sự hòa hợp"
+      ],
+      "meanings": {
+        "light": [
+          "Mang những điều đối lập lại với nhau",
+          "Kiểm duyệt hành động hoặc cảm xúc của bạn",
+          "Tìm điểm trung gian",
+          "Đạt được thỏa hiệp",
+          "Tổng hợp các giải pháp làm hài lòng mọi người tham gia",
+          "Sử dụng cái cũ để làm một cái gì đó mới"
+        ],
+        "shadow": [
+          "Đi đến cực đoan",
+          "Phá vỡ nỗ lực của nhóm",
+          "Bỏ qua những cách tiếp cận lành mạnh với cuộc sống",
+          "Trở thành người nghiện",
+          "Tập thói háu ăn",
+          "Xé rách một cái gì đó hoặc một ai đó",
+          "Phá vỡ liên minh"
+        ]
+      },
+      "Archetype": "The Mediator",
+      "Hebrew Alphabet": "Samekh/Foundation/60",
+      "Numerology": "14 = 1 + 4 = 5 (catalyst, instability, confrontation)",
+      "Elemental": "Sagittarius",
+      "Mythical/Spiritual": "The angel seen here may be the goddess Iris. By extension, priests, priesthoods, or the transfigured Christ.",
+      "Questions to Ask": [
+        "Làm thế nào tôi có thể tránh được sự cực đoan?",
+        "Điểm chung của những người tham gia là gì?",
+        "Việc kết hợp những điều quen thuộc có thể giúp tôi tạo ra điều gì đó mới mẻ như thế nào?"
+      ],
+      "nameVn": "ôn hòa"
+    },
+    {
+      "name": "The Devil",
+      "number": "15",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m15.jpg",
+      "fortune_telling": [
+        "Ngoại tình và không chung thủy",
+        "Một chuỗi xui xẻo đang đến với bạn",
+        "Hãy coi chừng những ảnh hưởng xấu xa và những con sói đội lốt cừu"
+      ],
+      "keywords": [
+        "cái bóng",
+        "chủ nghĩa duy vật",
+        "sự trói buộc",
+        "ảo tưởng"
+      ],
+      "meanings": {
+        "light": [
+          "Trân trọng những điều xa hoa mà cuộc sống mang lại",
+          "Thoải mái với làn da của chính mình",
+          "Tận hưởng tình dục của bạn",
+          "Đổ tiền vào một vật dụng cá nhân đắt tiền",
+          "Chấp nhận sự thật rằng ai cũng có mặt tối của mình",
+          "Đối phó với những xung động không lành mạnh theo những cách lành mạnh"
+        ],
+        "shadow": [
+          "Nhấn mạnh quá mức vào vẻ bề ngoài",
+          "Luôn muốn nhiều hơn nữa",
+          "Coi trọng tài sản hơn con người hoặc các mối quan hệ",
+          "Cho phép bản năng cơ bản chi phối cuộc sống của bạn",
+          "Trở nên ích kỷ",
+          "Quy kết những xung lực đen tối của bạn cho các thế lực bên ngoài hoặc người khác"
+        ]
+      },
+      "Archetype": "The Shadow, The Other",
+      "Hebrew Alphabet": "Ayin/Eye/70",
+      "Numerology": "15 = 1 + 5 = 6 (adjustment, collaboration)",
+      "Elemental": "Capricorn",
+      "Mythical/Spiritual": "The Biblical Satan, certainly. Fallen angels, including Lucifer. Bacchus and Pan. Tempters and serpents of every stripe.",
+      "Questions to Ask": [
+        "Điều gì làm nô lệ cho tôi? Làm thế nào tôi có thể giải phóng bản thân?",
+        "Làm cách nào tôi có thể đánh giá lại tầm quan trọng mà tôi gán cho của cải vật chất?",
+        "Sự thèm muốn của tôi định nghĩa tôi ở mức độ nào?"
+      ],
+      "nameVn": "Ác quỷ"
+    },
+    {
+      "name": "The Tower",
+      "number": "16",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m16.jpg",
+      "fortune_telling": [
+        "Thảm họa sắp xảy ra",
+        "Hủy kế hoạch và đảo ngược quyết định",
+        "Ai đó muốn hạ bạn xuống một hoặc hai bậc",
+        "Đừng giữ lại; nói điều bạn thực sự muốn nói"
+      ],
+      "keywords": [
+        "phá hủy",
+        "sự biến động",
+        "sự phá hủy",
+        "thảm họa",
+        "sự phá hủy"
+      ],
+      "meanings": {
+        "light": [
+          "Thoát khỏi những thói quen, tư duy gò bó, cũ kỹ",
+          "Dọn đường cho sự tăng trưởng mới",
+          "Xua tan ảnh hưởng của cái tôi bị thổi phồng",
+          "Quay lại vấn đề cơ bản",
+          "Loại bỏ những ảo tưởng có hại",
+          "Nhận được cái nhìn sâu sắc bất ngờ"
+        ],
+        "shadow": [
+          "Bám vào những truyền thống kìm hãm sự phát triển",
+          "Tham gia vào sự mù quáng cố ý",
+          "Từ chối bằng chứng cho thấy cần phải thay đổi",
+          "Bỏ qua sự hướng dẫn từ quyền lực cao hơn",
+          "Tham gia một cách ác ý vào hành vi phá hoại"
+        ]
+      },
+      "Archetype": "The Shattered Ego",
+      "Hebrew Alphabet": "Pe[as]/Open Mouth/80",
+      "Numerology": "16 = 1 + 6 = 7 (psychology, imagination, inner work)",
+      "Elemental": "Mars",
+      "Mythical/Spiritual": "The Tower of Babel. The destruction of Sodom and Gomorrah. Shiva's destructive dance. The lightning of Zeus and Thor.",
+      "Questions to Ask": [
+        "Tình hình hiện tại có thể thay đổi đáng kể quan điểm của tôi như thế nào?",
+        "Sự mất mát này có thể mở ra cánh cửa cho sự tăng trưởng mới như thế nào?",
+        "Những thái độ nào cần phải được loại bỏ trước khi tôi tiếp tục?"
+      ],
+      "nameVn": "Tháp"
+    },
+    {
+      "name": "The Star",
+      "number": "17",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m17.jpg",
+      "fortune_telling": [
+        "Nhận một biểu đồ chiêm tinh được vẽ ra",
+        "Ai đó hơi quá say mê",
+        "Chuyện gì đang xảy ra bây giờ đã được định trước từ lâu"
+      ],
+      "keywords": [
+        "hy vọng",
+        "sự lạc quan",
+        "sự cởi mở",
+        "sự chắc chắn",
+        "đức tin",
+        "khao khát",
+        "sự thật"
+      ],
+      "meanings": {
+        "light": [
+          "Hy vọng điều tốt nhất",
+          "Tin rằng những điều tốt đẹp sẽ xảy đến với những người tốt",
+          "Nhìn sự kiện dưới ánh sáng tốt nhất có thể",
+          "Chấp nhận một tinh thần hào phóng",
+          "Mong được sự hướng dẫn từ trên",
+          "Coi trọng khả năng hơn xác suất"
+        ],
+        "shadow": [
+          "Phủ nhận sự thật khó chịu",
+          "Phủ nhận trách nhiệm cá nhân và nói: \"Mọi chuyện cứ thế xảy ra!\"",
+          "Bỏ qua các dấu hiệu và điềm báo",
+          "Thích ảo tưởng hơn thực tế",
+          "Lan truyền sự bi quan và keo kiệt của tinh thần"
+        ]
+      },
+      "Archetype": "The Heavenly Guide",
+      "Hebrew Alphabet": "Tzaddi/Fishhook/90 or, in some decks, He[as]/Window/5",
+      "Numerology": "17 = 1 + 7 = 8 (action, movement, swiftness)",
+      "Elemental": "Aquarius",
+      "Mythical/Spiritual": "The star that guided the Magi. Aphrodite. Venus. The Pleiades. Moses bringing forth water from the rock.",
+      "Questions to Ask": [
+        "Quyền lực cao hơn sẽ hướng dẫn tôi làm gì?",
+        "Làm thế nào tôi có thể bớt tự ti và đề phòng hơn?",
+        "Làm thế nào tôi có thể hòa hợp bản thân tốt hơn với những phước lành dồi dào của cuộc sống?"
+      ],
+      "nameVn": "ngôi sao"
+    },
+    {
+      "name": "The Moon",
+      "number": "18",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m18.jpg",
+      "fortune_telling": [
+        "Chú ý các vấn đề vào cuối tháng",
+        "Ai đó mà bạn biết cần phải hú lên mặt trăng thường xuyên hơn",
+        "Ai đó sắp thay đổi suy nghĩ về một quyết định quan trọng"
+      ],
+      "keywords": [
+        "bí ẩn",
+        "tưởng tượng",
+        "trí tưởng tượng",
+        "những giấc mơ",
+        "sự không chắc chắn"
+      ],
+      "meanings": {
+        "light": [
+          "Tận hưởng những tưởng tượng lành mạnh và mơ mộng",
+          "Sử dụng trí tưởng tượng của bạn",
+          "Thực hành phép thuật hoặc tôn vinh sự kỳ diệu của cuộc sống hàng ngày",
+          "Hòa mình vào chu kỳ của tự nhiên",
+          "Ôm lấy những điều chưa biết"
+        ],
+        "shadow": [
+          "Trở nên không thể tách rời tưởng tượng khỏi thực tế",
+          "Đau khổ vì ảo tưởng",
+          "Đánh mất sự trân trọng của bạn đối với những điều tuyệt vời hoặc huyền diệu",
+          "Áp dụng một tư duy logic tàn nhẫn",
+          "Không đánh giá cao những bí ẩn của cuộc sống"
+        ]
+      },
+      "Archetype": "The Holy Feminine/The Crone",
+      "Hebrew Alphabet": "Koph/Back of the Head/100",
+      "Numerology": "18 = 1 + 8 = 9 (fullness, readiness, ripeness)",
+      "Elemental": "Pisces",
+      "Mythical/Spiritual": "Kali, the dark-skinned divine mother associated with time, the eternal night, and the female principle. Hecate, goddess of night and darkness, who, like Anubis, assists others in their travels to the underworld. ",
+      "Questions to Ask": [
+        "Làm thế nào tôi có thể đối mặt với nỗi sợ hãi của mình và tiến về phía trước?",
+        "Những người trợ giúp nào có thể phục vụ tôi như những người hướng dẫn tôi vượt qua bóng tối cá nhân?",
+        "Làm thế nào tôi có thể giải quyết những điều chưa biết theo những cách lành mạnh?"
+      ],
+      "nameVn": "Mặt Trăng"
+    },
+    {
+      "name": "The Sun",
+      "number": "19",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m19.jpg",
+      "fortune_telling": [
+        "Mọi thứ sắp nở hoa hồng (hoặc hoa hướng dương, bất kể trường hợp nào)",
+        "Dù bạn đang nghĩ gì, hãy thực hiện nó vì hôm nay bạn không thể thua được"
+      ],
+      "keywords": [
+        "niềm vui",
+        "sự rực rỡ",
+        "xác nhận",
+        "chú ý",
+        "năng lượng"
+      ],
+      "meanings": {
+        "light": [
+          "Nhìn rõ sự vật",
+          "Trải nghiệm niềm vui mãnh liệt",
+          "Ăn mừng thành công của chính bạn",
+          "Biết bạn giỏi những gì bạn làm",
+          "Đạt được sự công nhận cho thiên tài cá nhân của bạn"
+        ],
+        "shadow": [
+          "Choáng váng trước thành tích của chính mình",
+          "Trở nên đắm chìm trong hình ảnh của chính bạn",
+          "Cảm thấy vội vã và mất tập trung",
+          "Cố gắng đến mức kiệt sức",
+          "Phóng đại khả năng của bạn hoặc trình bày sai thành tích của bạn"
+        ]
+      },
+      "Archetype": "The Holy Masculine",
+      "Hebrew Alphabet": "Resh/Head/200",
+      "Numerology": "19 = 1 + 9 = 10 (completion, exhaustion) 1 + 0 = 1 (starting point, opportunity)",
+      "Elemental": "The Sun",
+      "Mythical/Spiritual": "God the Father. Sun gods, including Ra, Apollo, and Helios. The moment of baptism. Claiming a new faith as your own.",
+      "Questions to Ask": [
+        "Làm cách nào tôi có thể tận dụng tốt nhất sự chú ý đang đến với mình?",
+        "Mục tiêu tinh thần cao nhất của tôi là gì?",
+        "Làm thế nào tôi có thể tránh bị choáng ngợp bởi năng lượng đang xoáy quanh mình?"
+      ],
+      "nameVn": "Mặt Trời"
+    },
+    {
+      "name": "Judgement",
+      "number": "20",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m20.jpg",
+      "fortune_telling": [
+        "Một vấn đề cũ mà bạn tưởng đã kết thúc sẽ lại xuất hiện vào hôm nay",
+        "Hãy sẵn sàng cho những thay đổi lớn: chia tay, cuộc gọi bất ngờ từ bạn bè cũ và những thất bại bất ngờ",
+        "Chúa đang cố thu hút sự chú ý của bạn"
+      ],
+      "keywords": [
+        "sự hồi sinh",
+        "đổi mới",
+        "sự hồi sinh",
+        "đánh giá",
+        "lời mời"
+      ],
+      "meanings": {
+        "light": [
+          "Nhận được một cuộc gọi đánh thức",
+          "Khám phá mục đích mới trong cuộc sống",
+          "Trở thành chính mình hoàn toàn và trọn vẹn",
+          "Nhận được phần thưởng xứng đáng",
+          "Vượt qua một cuộc đánh giá hoặc kiểm tra",
+          "Chào mừng sự khởi đầu của một giai đoạn mới của cuộc đời"
+        ],
+        "shadow": [
+          "Bị cân trên cân và thấy muốn",
+          "Không đo lường theo tiêu chuẩn được xác định rõ ràng",
+          "Bị bắt quả tang đang chơi đùa hoặc có hành vi sai trái",
+          "Không chuẩn bị cho kỳ thi mà bạn biết sắp tới",
+          "Từ chối cơ hội làm mới bản thân"
+        ]
+      },
+      "Archetype": "Resurrection",
+      "Hebrew Alphabet": "Sin/Tooth/300",
+      "Numerology": "20 = 2 + 0 = 2 (division, duality)",
+      "Elemental": "Fire",
+      "Mythical/Spiritual": "The resurrected Christ. The Last Judgment of Revelation. The phoenix, which rises to new life from its own ashes.",
+      "Questions to Ask": [
+        "Điều chính yếu tôi cần nhận ra về bản thân mình là gì?",
+        "Vũ trụ đang cố gắng thu hút sự chú ý của tôi bằng cách nào?",
+        "Nếu tôi được đổi mới bản thân, tôi sẽ trở thành gì?"
+      ],
+      "nameVn": "Phán quyết"
+    },
+    {
+      "name": "The World",
+      "number": "21",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m21.jpg",
+      "fortune_telling": [
+        "Trúng xổ số",
+        "Đạt được ước muốn của trái tim bạn",
+        "Có mọi thứ bạn từng tưởng tượng có"
+      ],
+      "keywords": [
+        "sự trọn vẹn",
+        "hội nhập",
+        "toàn bộ",
+        "sự đầy đủ",
+        "sự viên mãn"
+      ],
+      "meanings": {
+        "light": [
+          "Có tất cả",
+          "Biết và yêu bản thân mình một cách trọn vẹn nhất có thể",
+          "Nhìn thấy sự kết nối của vạn vật và con người",
+          "Nâng cao quan điểm của bạn",
+          "Sống cuộc sống trọn vẹn nhất",
+          "Hiểu ý nghĩa của cuộc sống"
+        ],
+        "shadow": [
+          "Cho phép lòng tham và sự đố kỵ ngăn cản bạn tận hưởng những gì bạn sở hữu",
+          "Không nhìn thấy thiết kế lớn hơn trong các sự kiện thông thường",
+          "Tin rằng mọi thứ tồn tại đều có thể chạm, đếm hoặc đo lường được",
+          "Không nhìn thấy điều thiêng liêng được phản ánh ở những người xung quanh bạn"
+        ]
+      },
+      "Archetype": "Enlightenment",
+      "Hebrew Alphabet": "Tau/Cross/400",
+      "Numerology": "21 = 2 + 1 = 3 (expression, result)",
+      "Elemental": "Saturn",
+      "Mythical/Spiritual": "The ascended Christ. The Buddha attaining enlightenment. The alpha and the omega. The completion of the alchemist's great work.",
+      "Questions to Ask": [
+        "Đối với tôi, tất cả những điều đó có ý nghĩa gì?",
+        "Tôi nhận thức được mối liên hệ của mình với thế giới xung quanh ở mức độ nào?",
+        "Điều gì đã ngăn cản tôi có được mọi thứ ngay hôm nay?"
+      ],
+      "nameVn": "thế giới"
+    },
+    {
+      "name": "Ace of Cups",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c01.jpg",
+      "fortune_telling": [
+        "Sự lãng mạn nằm trong những tấm thiệp",
+        "Một mối quan hệ mới hoặc hôn nhân sắp đến gần",
+        "Lời cầu nguyện được đáp lại"
+      ],
+      "keywords": [
+        "trực giác",
+        "tâm linh",
+        "tình cảm",
+        "động lực"
+      ],
+      "meanings": {
+        "light": [
+          "Tin tưởng vào cảm xúc của bạn",
+          "Mở lòng mình với tâm hồn",
+          "Chấp nhận và đáp lại tình cảm",
+          "Tiếp xúc với những gì thúc đẩy bạn",
+          "Tận dụng cơ hội để bày tỏ tình yêu với người khác",
+          "Lắng nghe giọng nói nhỏ nhẹ"
+        ],
+        "shadow": [
+          "Che giấu cảm xúc của bạn",
+          "Từ chối cơ hội để yêu hoặc được yêu",
+          "Làm tê liệt bản thân trước những khao khát tâm linh",
+          "Từ chối lời khuyên của trái tim bạn",
+          "Trở thành con rối của cảm xúc của chính mình",
+          "Đắm mình trong cơn cuồng loạn hoặc nỗi ám ảnh"
+        ]
+      },
+      "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+      "Astrology": "Cancer, Scorpio, Pisces",
+      "Affirmation": "\"I listen to the counsel of my heart.\"",
+      "Questions to Ask": [
+        "Hiện giờ tôi đang cảm thấy thế nào?",
+        "Tôi sẽ mở lòng đón nhận sự hướng dẫn tâm linh như thế nào?",
+        "Điều gì thúc đẩy tôi nhất - niềm vui hay nỗi đau? Tại sao?"
+      ],
+      "nameVn": "Ace of Cup"
+    },
+    {
+      "name": "Two of Cups",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c02.jpg",
+      "fortune_telling": [
+        "Có người thầm yêu bạn",
+        "Các mối quan hệ nên có sự tương hỗ; thoát khỏi một con đỉa"
+      ],
+      "keywords": [
+        "sự đoàn kết",
+        "sự hấp dẫn",
+        "sự kết hợp",
+        "tình cảm"
+      ],
+      "meanings": {
+        "light": [
+          "Bị thu hút bởi ai đó",
+          "Khao khát một ai đó hoặc một cái gì đó",
+          "Hành động theo mong muốn của bạn",
+          "Khám phá cảm giác là của nhau",
+          "Làm những gì khiến bạn cảm thấy tốt",
+          "Sáp nhập",
+          "Chữa lành mối quan hệ bị đứt",
+          "Thừa nhận hai người cảm thấy khác nhau về nhau và bước tiếp"
+        ],
+        "shadow": [
+          "Đốt cầu",
+          "Bị cuốn vào sự phụ thuộc không lành mạnh",
+          "Loại bỏ bất kỳ ai ngoại trừ số ít bạn đã chọn",
+          "Ám ảnh về một người không đáp lại tình cảm của bạn",
+          "Tuyệt vọng khi tìm thấy \"The One\"",
+          "Lừa dối bản thân về định hướng thực sự của mình"
+        ]
+      },
+      "Numerology": "2 (The Other: duality, division, debate)",
+      "Astrology": "Venus in Cancer",
+      "Affirmation": "\"I am attuned to what my heart truly desires.\"",
+      "Questions to Ask": [
+        "Làm thế nào tôi có thể chắc chắn rằng những gì tôi đang cảm thấy là của nhau?\",\"Lần cuối cùng tôi cảm thấy \"yêu\" một ai đó hoặc điều gì đó là khi nào?",
+        "Bạn cần gì để cảm thấy ổn định về mặt cảm xúc?"
+      ],
+      "nameVn": "Hai ly"
+    },
+    {
+      "name": "Three of Cups",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c03.jpg",
+      "fortune_telling": [
+        "Một mối tình lãng mạn độc đáo đang đến với bạn: một mối tình với một người mà bạn luôn gạt bỏ"
+      ],
+      "keywords": [
+        "lễ kỷ niệm",
+        "biểu hiện",
+        "cộng đồng",
+        "sự thân thiện"
+      ],
+      "meanings": {
+        "light": [
+          "Kỷ niệm cảm xúc hoặc kết nối của bạn với người khác",
+          "Thể hiện niềm vui thông qua bài hát, điệu nhảy hoặc tình cảm thể xác",
+          "Làm việc cùng với những người chia sẻ cảm xúc của bạn",
+          "Thực hiện hành vi phục vụ như một cách nói “Anh yêu em”",
+          "Chấp nhận những sự sắp xếp lãng mạn độc đáo"
+        ],
+        "shadow": [
+          "Nhầm lẫn sự ham chơi với tình cảm thực sự",
+          "Bị chi phối bởi cảm xúc hưng cảm",
+          "Mong đợi mọi người luôn cảm thấy giống như bạn",
+          "Đòi hỏi sự hỗ trợ vô lý từ bạn bè hoặc gia đình",
+          "Tiệc tùng ở mức độ nguy hiểm hoặc không lành mạnh"
+        ]
+      },
+      "Numerology": "3 (The Result: expression, productivity, output)",
+      "Astrology": "Mercury in Cancer",
+      "Affirmation": "\"I allow my actions to reflect my true emotions.\"",
+      "Questions to Ask": [
+        "Điều gì đáng để ăn mừng trong cuộc đời tôi?",
+        "Làm thế nào tôi có thể thể hiện cảm xúc của mình theo những cách thích hợp?",
+        "Tôi có thể làm gì để cho đối phương thấy tôi thực sự cảm thấy thế nào?"
+      ],
+      "nameVn": "Ba ly"
+    },
+    {
+      "name": "Four of Cups",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c04.jpg",
+      "fortune_telling": [
+        "Người yêu ngày càng bồn chồn",
+        "Tìm hiểu xem anh ấy/cô ấy cần gì, nếu không những cơ hội mới có thể lôi kéo đối tác của bạn rời xa"
+      ],
+      "keywords": [
+        "sự buồn chán",
+        "sự bơ phờ",
+        "hôn mê",
+        "sự ổn định",
+        "sự vô ơn"
+      ],
+      "meanings": {
+        "light": [
+          "Duy trì sự ổn định về mặt cảm xúc của bạn",
+          "Không chịu khuất phục trước những cảm xúc dâng trào",
+          "Đánh giá cao những gì bạn có và từ chối coi đó là điều hiển nhiên",
+          "Nhìn thấy giá trị của những cam kết lâu dài"
+        ],
+        "shadow": [
+          "Đang chán",
+          "Mơ mộng làm tổn hại đến công việc của bạn",
+          "Từ chối tham gia khi có cơ hội",
+          "Coi con người và các mối quan hệ là điều hiển nhiên",
+          "Bỏ qua những cơ hội lãng mạn hoặc tinh thần",
+          "Cảm hứng quay cuồng",
+          "Cảm thấy mọi thứ nên ở lại \"như nó vốn có\""
+        ]
+      },
+      "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+      "Astrology": "Moon in Cancer",
+      "Affirmation": "\"I appreciate what I've been given.\"",
+      "Questions to Ask": [
+        "Làm cách nào tôi có thể sử dụng \"thời gian ngừng hoạt động\" này một cách tốt nhất?",
+        "Làm cách nào tôi có thể cho đối tác của mình thấy rằng tôi không coi anh ấy hoặc cô ấy là điều hiển nhiên?",
+        "Tâm trạng của tôi đang cản trở tôi đến những cơ hội mới ở mức độ nào?"
+      ],
+      "nameVn": "Bốn ly"
+    },
+    {
+      "name": "Five of Cups",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c05.jpg",
+      "fortune_telling": [
+        "Một cuộc chia tay sắp xảy ra",
+        "Đừng khóc vì sữa bị đổ",
+        "Hãy nhặt cục u của bạn và trở lại yên xe"
+      ],
+      "keywords": [
+        "mất mát",
+        "tuyệt vọng",
+        "đánh giá lại",
+        "hối tiếc",
+        "sự không chắc chắn",
+        "sự ăn năn"
+      ],
+      "meanings": {
+        "light": [
+          "Thừa nhận mất mát và bước tiếp",
+          "Tập trung vào việc làm thế nào để chiếc ly luôn \"đầy một nửa\"",
+          "Tìm tia sáng trong đám mây đen",
+          "Nhận ra rằng sự mất mát là một phần tự nhiên của cuộc sống",
+          "Ôm lấy nỗi đau lành mạnh",
+          "Rút ra bài học từ hậu quả khắc nghiệt"
+        ],
+        "shadow": [
+          "Đắm mình trong nỗi đau buồn không lành mạnh hoặc sự thương hại bản thân",
+          "Từ chối bước tiếp và buông bỏ",
+          "Bám vào quá khứ",
+          "Ám ảnh về kiếp trước và tình yêu trong quá khứ",
+          "Không sống được ở hiện tại",
+          "Tự trách mình vì những lỗi lầm trong quá khứ",
+          "Cho phép nỗi sợ thất bại hạn chế nỗ lực của bạn"
+        ]
+      },
+      "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+      "Astrology": "Mars in Scorpio",
+      "Affirmation": "\"I learn from my losses and move on.\"",
+      "Questions to Ask": [
+        "Tôi có xu hướng đối mặt với sự mất mát như thế nào?",
+        "Bài học cuộc sống nào tôi có thể đang học bây giờ?",
+        "Làm thế nào tôi có thể chuyển sự chú ý của mình từ quá khứ sang tương lai?"
+      ],
+      "nameVn": "Năm ly"
+    },
+    {
+      "name": "Six of Cups",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c06.jpg",
+      "fortune_telling": [
+        "Tinh thần keo kiệt đang bóp nghẹt niềm vui cuộc sống của bạn",
+        "Hãy thả lỏng và nghĩ đến người khác một lần, tại sao bạn lại không?"
+      ],
+      "keywords": [
+        "từ thiện",
+        "chia sẻ",
+        "sự hy sinh",
+        "hợp tác",
+        "sự công bằng"
+      ],
+      "meanings": {
+        "light": [
+          "Tặng thời gian và tài năng của bạn cho người khác",
+          "Hài lòng khi biết nỗ lực của bạn sẽ giúp đỡ người khác như thế nào",
+          "Tạo kịch bản “đôi bên cùng có lợi”",
+          "Cho đi ngay cả khi biết rằng không thể trả nợ",
+          "Có động lực để làm một việc tốt"
+        ],
+        "shadow": [
+          "Liên kết ý thức về giá trị bản thân với sự đánh giá của người khác",
+          "Cố gắng tỏ ra thiếu thốn hơn thực tế",
+          "Nhận từ thiện không xứng đáng hoặc không xứng đáng",
+          "Khoe khoang về những nỗ lực từ thiện của bạn",
+          "Trục lợi trong lúc khó khăn",
+          "Từ chối chia sẻ gánh nặng"
+        ]
+      },
+      "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+      "Astrology": "Sun in Scorpio",
+      "Affirmation": "\"I freely give myself to others, expecting nothing in return.\"",
+      "Questions to Ask": [
+        "Tôi có những món quà gì? Tôi có thể cho họ một cách tự do như thế nào?",
+        "Làm thế nào tôi có thể thực hành việc cho đi vô điều kiện?",
+        "Mọi thứ sẽ thay đổi như thế nào nếu tôi trở thành một người từ thiện hơn?"
+      ],
+      "nameVn": "Sáu ly"
+    },
+    {
+      "name": "Seven of Cups",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c07.jpg",
+      "fortune_telling": [
+        "Bạn đang được cho ăn một dòng",
+        "Thay vì bị choáng ngợp bởi những lời nói hoa mỹ và những lời hứa hẹn, hãy yêu cầu một điều gì đó thực tế"
+      ],
+      "keywords": [
+        "trí tưởng tượng",
+        "những giấc mơ",
+        "ảo tưởng",
+        "mục tiêu"
+      ],
+      "meanings": {
+        "light": [
+          "Tạo động lực cho bản thân bằng những hình ảnh về sự thành công trong tương lai",
+          "Sử dụng trực quan để khuyến khích sự tiến bộ",
+          "Áp dụng cách tiếp cận giàu trí tưởng tượng hoặc sáng tạo để giải quyết vấn đề",
+          "Biến ước mơ thành hiện thực",
+          "Thu thập cái nhìn sâu sắc từ tầm nhìn cá nhân"
+        ],
+        "shadow": [
+          "Obsessing on imaginary fears or uncertain consequences",
+          "Đầu hàng khủng bố tình cảm hoặc chính trị",
+          "Dành nhiều thời gian để mơ mộng hơn là làm việc",
+          "Không hình dung được những hậu quả có thể xảy ra với những lựa chọn của bạn",
+          "Bị nỗi sợ hãi điều khiển"
+        ]
+      },
+      "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+      "Astrology": "Venus in Scorpio",
+      "Affirmation": "\"I use inner vision as a tool for growth.\"",
+      "Questions to Ask": [
+        "Bạn muốn gì nhất? Bạn sợ điều gì nhất? Những điều này có liên quan như thế nào?",
+        "Trí tưởng tượng của bạn hoạt động như thế nào đối với bạn? Chống lại bạn?",
+        "Tầm nhìn cá nhân rõ ràng hơn có thể giúp bạn chọn một chiếc cốc như thế nào trong số rất nhiều chiếc cốc có sẵn?"
+      ],
+      "nameVn": "Bảy ly"
+    },
+    {
+      "name": "Eight of Cups",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c08.jpg",
+      "fortune_telling": [
+        "Ai đó đang \"bỏ rơi\" bạn, bây giờ hoặc trong tương lai gần",
+        "Có lẽ đã đến lúc ngừng nói về vấn đề này và tiếp tục"
+      ],
+      "keywords": [
+        "khao khát",
+        "sự không hài lòng",
+        "nhiệm vụ",
+        "khởi hành",
+        "rút tiền"
+      ],
+      "meanings": {
+        "light": [
+          "Muốn một cái gì đó tốt hơn",
+          "Tỏa sáng con đường riêng của bạn",
+          "Nhận ra rằng cuộc sống còn phải có nhiều điều hơn nữa",
+          "Để lại một tình huống không lành mạnh phía sau",
+          "Bắt đầu công việc kinh doanh của riêng bạn",
+          "Đi rút lui",
+          "Đi tìm “giọng nói nhỏ nhẹ”"
+        ],
+        "shadow": [
+          "Không thể thay đổi",
+          "Tìm lỗi",
+          "soi mói",
+          "Từ chối ổn định",
+          "Chạy trốn khỏi các vấn đề hoặc đối đầu",
+          "Nói: \"Đó là đường của tôi hoặc đường cao tốc!\"",
+          "Nhắc lại những sai lầm và thất vọng trong quá khứ",
+          "Đe dọa bỏ việc như một chiến lược để đạt được mục tiêu của bạn"
+        ]
+      },
+      "Numerology": "8 (The Action: movement, outer work, swiftness)",
+      "Astrology": "Saturn in Pisces",
+      "Affirmation": "\"I am always open to opportunities for growth.\"",
+      "Questions to Ask": [
+        "Tôi cần phải bỏ lại điều gì một lần và mãi mãi?",
+        "Nếu tôi rời đi để tìm kiếm \"thêm\", chính xác thì tôi sẽ tìm kiếm điều gì?",
+        "Một khóa tu có thể nâng cao quan điểm của tôi như thế nào?"
+      ],
+      "nameVn": "Tám ly"
+    },
+    {
+      "name": "Nine of Cups",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c09.jpg",
+      "fortune_telling": [
+        "Bất cứ điều gì bạn muốn, bạn sẽ có được nó"
+      ],
+      "keywords": [
+        "sự hài lòng",
+        "sự gợi cảm",
+        "sang trọng",
+        "niềm vui"
+      ],
+      "meanings": {
+        "light": [
+          "Vui mừng với thành quả của chính mình",
+          "Nhận thức được tài năng và khả năng của chính mình",
+          "Tận hưởng những điều tốt đẹp mà cuộc sống mang lại",
+          "Nuông chiều bản thân",
+          "Thư giãn và giải tỏa",
+          "Có mọi thứ bạn cần để cảm thấy trọn vẹn"
+        ],
+        "shadow": [
+          "Tự mãn",
+          "Thỏa mãn bản thân bằng sự tổn hại của người khác",
+          "Trở nên ích kỷ",
+          "Quá ham mê",
+          "Trốn tránh công việc cần phải làm",
+          "Khẳng định những thành tựu hoặc kỹ năng mà bạn không có",
+          "Không bao giờ hài lòng, cho dù bạn có bao nhiêu"
+        ]
+      },
+      "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+      "Astrology": "Jupiter in Pisces",
+      "Affirmation": "\"I have everything I need to be happy.\"",
+      "Questions to Ask": [
+        "Hạnh phúc thực sự là gì?",
+        "Nếu tôi có thể có bất cứ thứ gì, tôi sẽ có gì?",
+        "Thái độ của tôi đối với sự sang trọng là gì? Tôi có xứng đáng không?"
+      ],
+      "nameVn": "Chín ly"
+    },
+    {
+      "name": "Ten of Cups",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c10.jpg",
+      "fortune_telling": [
+        "Hôn nhân và gia đình nằm trong những lá bài",
+        "Mong đợi một tình bạn nảy nở thành một mối tình lãng mạn"
+      ],
+      "keywords": [
+        "niềm vui",
+        "sự hoàn thành",
+        "cảm xúc dâng trào",
+        "sự choáng váng"
+      ],
+      "meanings": {
+        "light": [
+          "Có nhiều hơn những gì bạn từng mơ ước",
+          "Biết ơn sâu sắc vì tất cả những gì bạn đã được trao",
+          "Nhận ra Bàn tay của Chúa trong những món quà mà Vũ trụ mang đến cho bạn",
+          "Trải nghiệm niềm vui siêu việt",
+          "Đạt được hạnh phúc gia đình"
+        ],
+        "shadow": [
+          "So sánh thành tích hoặc mối quan hệ của bạn với những tiêu chuẩn tưởng tượng phi thực tế",
+          "Trải qua những cảm xúc mãnh liệt đến mức làm giảm khả năng đối mặt với thực tế của bạn",
+          "Cảm thấy choáng ngợp",
+          "Ghen tị với thành tựu và hạnh phúc của người khác"
+        ]
+      },
+      "Numerology": "10 (The End: finality, completion, exhaustion)",
+      "Astrology": "Mars in Pisces",
+      "Affirmation": "\"I take time to appreciate what I've been given.\"",
+      "Questions to Ask": [
+        "Ai có quyền định nghĩa \"niềm vui\" bao gồm những gì?",
+        "Những hành động nào có sẵn khi bạn cảm thấy quá tải?",
+        "Những lời thề hoặc lời hứa có thể đóng vai trò như thế nào trong việc đạt được mức độ niềm vui lớn hơn trong cuộc sống của bạn?"
+      ],
+      "nameVn": "Mười ly"
+    },
+    {
+      "name": "Page of Cups",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c11.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một chàng trai hoặc cô gái trẻ với phong thái bồng bềnh, mơ mộng, có thể sinh ra là Thiên Bình, Bọ Cạp hoặc Nhân Mã, người muốn bắt đầu một mối quan hệ mới với bạn."
+      ],
+      "keywords": [
+        "sự nhiệt tình",
+        "ấn tượng đầu tiên",
+        "chủ nghĩa lãng mạn",
+        "sự hời hợt"
+      ],
+      "meanings": {
+        "light": [
+          "Thể hiện cảm xúc của bạn một cách tự do",
+          "Ném mình vào sự lãng mạn",
+          "Nuôi dưỡng một mối tình bí mật",
+          "Đắm chìm trong ảo tưởng lãng mạn",
+          "Bắt đầu một mối quan hệ mới",
+          "Nhớ lại mối tình đầu",
+          "Trải nghiệm tình yêu lần đầu tiên",
+          "Chuyển đổi sang một tôn giáo mới"
+        ],
+        "shadow": [
+          "Lầm tưởng crush là tình yêu đích thực",
+          "Đọc ý định lãng mạn thành hành động hồn nhiên",
+          "Đang điên cuồng cố gắng gây ấn tượng với người khác",
+          "Đắm chìm trong tình cảm quá ngọt ngào",
+          "Giả vờ có nhiều trải nghiệm lãng mạn hoặc tâm linh hơn những gì bạn có"
+        ]
+      },
+      "Elemental": "Earth of Water.",
+      "Affirmation": "\"I am ready to embrace love and Spirit.\"",
+      "Questions to Ask": [
+        "Bạn lo lắng đến mức nào khi người khác coi bạn là kẻ ngu ngốc hoặc thiếu kinh nghiệm?",
+        "Bạn có thể thành thật đến mức độ nào về sự thiếu kinh nghiệm của mình trong tình yêu và đức tin?",
+        "Làm thế nào bạn có thể duy trì sự nhiệt tình theo thời gian?"
+      ],
+      "nameVn": "Trang của cốc"
+    },
+    {
+      "name": "Knight of Cups",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c12.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một người đàn ông có tính cách đa cảm, nhạy cảm, có khả năng sinh từ 13 tháng 10 đến 11 tháng 11, người muốn bạn tập hợp xung quanh mục tiêu đam mê mới nhất của anh ấy."
+      ],
+      "keywords": [
+        "nhiệt tình",
+        "lòng nhiệt thành",
+        "sự ủ rũ",
+        "chiếu sáng"
+      ],
+      "meanings": {
+        "light": [
+          "Cam kết sâu sắc vì một mục đích",
+          "Đầu hàng những cảm xúc mạnh mẽ, từ phấn khích đến trầm cảm",
+          "Chỉ hành động theo trực giác",
+          "Giải quyết vấn đề bằng trực giác",
+          "Tin tưởng và đưa ra quyết định dựa trên lý tưởng thay vì thực tế",
+          "Đưa trực giác hoặc niềm đam mê lên bàn"
+        ],
+        "shadow": [
+          "Trở thành một người cuồng tín",
+          "Từ chối thông tin cho thấy trực giác của bạn đang sai lầm",
+          "Cho phép cảm xúc kiểm soát bạn",
+          "Đầu hàng trước sự ghen tị, đối đầu và áp lực từ bạn bè",
+          "Ẩn hoặc bỏ qua những hiểu biết trực quan"
+        ]
+      },
+      "Elemental": "Air of Water.",
+      "Affirmation": "\"I translate my passions into actions.\"",
+      "Questions to Ask": [
+        "Bạn dễ bị cảm xúc cực đoan đến mức nào?",
+        "Sự khác biệt giữa niềm đam mê lái xe và lòng nhiệt thành mù quáng là gì?",
+        "Làm thế nào bạn có thể truyền cảm hứng cho người khác mà không kích động bạo loạn?"
+      ],
+      "nameVn": "Hiệp sĩ ly"
+    },
+    {
+      "name": "Queen of Cups",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c13.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một người phụ nữ có bản chất tình cảm và tinh thần sâu sắc, có khả năng sinh từ ngày 11 tháng 6 đến ngày 11 tháng 7, người sử dụng những lời kêu gọi về mặt cảm xúc và tinh thần để thuyết phục người khác theo quan điểm của mình."
+      ],
+      "keywords": [
+        "sự sáng suốt",
+        "tâm linh",
+        "lòng trắc ẩn",
+        "sự đồng cảm",
+        "bản năng"
+      ],
+      "meanings": {
+        "light": [
+          "Cho phép bản thân cảm động trước hoàn cảnh của người khác",
+          "Cảm nhận những cảm xúc mạnh mẽ",
+          "Có sự cảm thông hoặc đồng cảm khác thường",
+          "Tin tưởng vào cảm xúc của bạn để hướng dẫn bạn",
+          "Kêu gọi khả năng tâm linh",
+          "Đạt được sự hiệp nhất với Thánh Thần"
+        ],
+        "shadow": [
+          "Quá bận rộn với những vấn đề về Tinh thần, bạn trở nên tách rời khỏi thế giới",
+          "Cho phép sự đồng cảm vô hiệu hóa bạn (thay vì truyền cảm hứng cho hành động)",
+          "Sử dụng khả năng tâm linh để gây ảnh hưởng bí mật",
+          "Đắm mình trong chủ nghĩa cảm tính, ủy mị hoặc tủi thân"
+        ]
+      },
+      "Elemental": "Water of Water.",
+      "Affirmation": "\"I choose to be enabled, not disabled, by my strong emotions.\"",
+      "Questions to Ask": [
+        "Làm thế nào để tôi xử lý những cảm xúc mạnh mẽ?",
+        "Tôi là nạn nhân của cảm xúc của chính mình đến mức độ nào?",
+        "Làm thế nào tôi có thể chuyển từ suy ngẫm sang hành động?"
+      ],
+      "nameVn": "Nữ hoàng ly"
+    },
+    {
+      "name": "King of Cups",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c14.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một người đàn ông lớn tuổi với vẻ ngoài dịu dàng, nhạy cảm, có thể sinh từ ngày 9 tháng 2 đến ngày 10 tháng 3, người nổi tiếng với sự công bằng và bao dung."
+      ],
+      "keywords": [
+        "trí tuệ",
+        "ngoại giao",
+        "kiềm chế",
+        "sự điềm tĩnh"
+      ],
+      "meanings": {
+        "light": [
+          "Giữ môi trên cứng",
+          "Dũng cảm và sáng suốt trước những hoàn cảnh bất lợi",
+          "Chia sẻ kinh nghiệm như một cách an ủi người khác",
+          "Đưa ra quyết định công bằng và đồng cảm",
+          "Tôn vinh tinh thần chứ không chỉ là chữ nghĩa của pháp luật"
+        ],
+        "shadow": [
+          "Cho phép bản thân trở nên cứng nhắc và vô cảm",
+          "Đưa ra quyết định không công bằng dựa trên một chương trình nghị sự ẩn giấu",
+          "Đưa ra quyết định mà không quan tâm đến tác động cảm xúc của họ đối với người khác",
+          "Lạm dụng quyền lực tâm linh",
+          "Sử dụng đòn bẩy cảm xúc hoặc tinh thần để thực hiện việc kiểm soát người khác một cách không lành mạnh"
+        ]
+      },
+      "Elemental": "Fire of Water.",
+      "Affirmation": "\"I strive to be stable and fair-minded.\"",
+      "Questions to Ask": [
+        "Người khôn ngoan nào có thể được tư vấn để có được lời khuyên tốt?",
+        "Làm cách nào để đảm bảo rằng tôi đang khách quan và công bằng nhất có thể?",
+        "Tôi có khả năng giữ được “môi trên cứng ngắc” đến mức độ nào?"
+      ],
+      "nameVn": "Vua của những chiếc cốc"
+    },
+    {
+      "name": "Ace of Swords",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s01.jpg",
+      "fortune_telling": [
+        "Bây giờ là lúc để đưa ra lựa chọn",
+        "Hãy ngừng dao động và làm những gì bạn biết là tốt nhất"
+      ],
+      "keywords": [
+        "logic",
+        "tính khách quan",
+        "trí tuệ",
+        "sự lựa chọn"
+      ],
+      "meanings": {
+        "light": [
+          "Đưa ra quyết định khách quan",
+          "Áp dụng logic",
+          "Lập luận để thoát khỏi tình huống khó khăn",
+          "Giải câu đố",
+          "Suy nghĩ thấu đáo mọi việc",
+          "Nhấn mạnh sự thật",
+          "Làm sạch tâm trí của bạn",
+          "Tìm kiếm sự rõ ràng"
+        ],
+        "shadow": [
+          "Áp dụng logic tàn nhẫn hoặc xoắn xuýt",
+          "Tự hào về trí tuệ vượt trội của mình",
+          "Sử dụng tư duy nhanh chóng để đánh lừa hoặc gây nhầm lẫn cho người khác",
+          "Đánh giá nhanh khó hiểu với suy nghĩ nhanh chóng",
+          "Đưa ra quyết định mà không nghĩ đến hậu quả"
+        ]
+      },
+      "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+      "Astrology": "Libra, Aquarius, Gemini",
+      "Affirmation": "\"I take the time to think things through.\"",
+      "Questions to Ask": [
+        "Nếu tôi đưa ra quyết định hoàn toàn dựa trên lý trí và logic thì quyết định của tôi sẽ là gì?",
+        "Tôi nghĩ gì về khả năng giải quyết vấn đề của chính mình?",
+        "Ai có thể cung cấp cho tôi những sự thật thuần túy và đơn giản?"
+      ],
+      "nameVn": "Ace kiếm"
+    },
+    {
+      "name": "Two of Swords",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s02.jpg",
+      "fortune_telling": [
+        "Đôi khi, cách duy nhất để chiến thắng là từ chối chiến đấu",
+        "Bây giờ bạn đang bị mắc kẹt; let time pass before taking action"
+      ],
+      "keywords": [
+        "phủ nhận",
+        "tranh luận",
+        "sự bế tắc",
+        "sự đình chiến"
+      ],
+      "meanings": {
+        "light": [
+          "Từ chối đưa ra quyết định mà không nhận được sự thật",
+          "Khám phá cả hai mặt của một cuộc tranh luận",
+          "Tranh luận sôi nổi vì những gì bạn tin tưởng",
+          "Cân nhắc các vấn đề",
+          "Khuyến khích trao đổi cởi mở các ý tưởng",
+          "Thảo luận các vấn đề chính trị hoặc tôn giáo mà không bị “nóng cổ”"
+        ],
+        "shadow": [
+          "Từ chối bằng chứng mâu thuẫn với niềm tin sâu sắc",
+          "Tranh cãi với người khác chỉ vì mục đích đó",
+          "Nhặt trứng",
+          "Trì hoãn quyết định vì sợ phải đối mặt với hậu quả",
+          "Ngăn cản người khác nhận được thông tin họ cần để đưa ra quyết định đúng đắn"
+        ]
+      },
+      "Numerology": "2 (The Other: duality, division, debate)",
+      "Astrology": "Moon in Libra",
+      "Affirmation": "\"I strive to see all sides of every issue.\"",
+      "Questions to Ask": [
+        "Tôi cần thông tin gì để vượt qua sự bế tắc này?",
+        "Làm thế nào tôi có thể vượt qua thái độ phòng thủ và nhìn ra sự thật?",
+        "Quan điểm nào, ngoài quan điểm của tôi, đóng vai trò gì trong tình huống này?"
+      ],
+      "nameVn": "Hai thanh kiếm"
+    },
+    {
+      "name": "Three of Swords",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s03.jpg",
+      "fortune_telling": [
+        "Có rất nhiều cuộc chia tay và ngoại tình",
+        "Tuy nhiên, điều đau đớn bây giờ sẽ trở thành điều tốt cho bạn sau này"
+      ],
+      "keywords": [
+        "phương sai",
+        "sự khác biệt",
+        "sự không hài lòng",
+        "đau lòng",
+        "sự từ chối"
+      ],
+      "meanings": {
+        "light": [
+          "Đủ dũng cảm để nhìn mọi thứ như thực tế của nó",
+          "Luyện tập con mắt quan trọng của bạn",
+          "Là nhà phê bình tốt nhất của riêng bạn",
+          "Thừa nhận rằng mọi thứ không phải lúc nào cũng diễn ra như kế hoạch",
+          "Vượt qua nỗi đau để đón nhận sự thật đau lòng"
+        ],
+        "shadow": [
+          "Đang chìm đắm trong tuyệt vọng",
+          "Cho phép bản thân hoàn toàn bị nghiền nát bởi những suy nghĩ, lời nói hoặc hành động của người khác",
+          "Đánh giá bản thân quá khắt khe",
+          "Giữ mình theo một tiêu chuẩn xuất sắc phi thực tế",
+          "Đeo trái tim trên tay áo và mang con chip trên vai"
+        ]
+      },
+      "Numerology": "3 (The Result: expression, productivity, output)",
+      "Astrology": "Saturn in Libra",
+      "Affirmation": "\"I learn from failures and setbacks.\"",
+      "Questions to Ask": [
+        "Làm thế nào tôi có thể vượt qua chứng trầm cảm của mình?",
+        "Cảm xúc của tôi là vấn đề được lựa chọn ở mức độ nào?",
+        "Làm thế nào tôi có thể học hỏi từ những sai lầm trong quá khứ?"
+      ],
+      "nameVn": "Ba thanh kiếm"
+    },
+    {
+      "name": "Four of Swords",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s04.jpg",
+      "fortune_telling": [
+        "Đừng đưa ra bất kỳ quyết định nào bây giờ",
+        "Hãy chờ đợi và bạn sẽ vui mừng vì đã làm vậy"
+      ],
+      "keywords": [
+        "thiền định",
+        "suy ngẫm",
+        "quan điểm",
+        "suy nghĩ"
+      ],
+      "meanings": {
+        "light": [
+          "Suy nghĩ về kế hoạch của bạn trước khi thực hiện chúng",
+          "Tạm dừng để thiền hoặc giải tỏa tâm trí của bạn",
+          "Dành thời gian để hiểu ai đó hoặc điều gì đó trước khi chỉ trích nó",
+          "Nghỉ ngơi",
+          "Chiếm lấy suy nghĩ của bạn bằng sự xao lãng lành mạnh"
+        ],
+        "shadow": [
+          "Không suy nghĩ thấu đáo mọi việc",
+          "nhầm lẫn sự trì hoãn với sự chu đáo",
+          "Chấp nhận một quan điểm và từ chối xem xét lại kết luận của mình, ngay cả khi được đưa ra bằng chứng bác bỏ",
+          "Cho phép sự hỗn loạn và hay thay đổi chi phối suy nghĩ của bạn"
+        ]
+      },
+      "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+      "Astrology": "Jupiter in Libra",
+      "Affirmation": "\"I think before taking action.\"",
+      "Questions to Ask": [
+        "Đã bao lâu rồi bạn chưa cố tình \"tạm nghỉ\"?",
+        "Đối với bạn, thiền khó đến mức nào?",
+        "Điều gì sẽ xảy ra nếu bạn từ chối đưa ra quyết định ngày hôm nay?"
+      ],
+      "nameVn": "Bốn thanh kiếm"
+    },
+    {
+      "name": "Five of Swords",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s05.jpg",
+      "fortune_telling": [
+        "Ai đó đang ăn cắp của bạn, về mặt tài chính hoặc tình cảm",
+        "Hãy cảnh giác với những người bạn nói xấu sau lưng bạn"
+      ],
+      "keywords": [
+        "sự ích kỷ",
+        "sự thù địch",
+        "sự phi lý",
+        "tự bảo quản"
+      ],
+      "meanings": {
+        "light": [
+          "Hành động vì lợi ích tốt nhất của bạn",
+          "Lựa chọn đứng lên vì chính mình",
+          "Không lùi bước trước sự bất đồng và bất hòa",
+          "Đứng lên",
+          "Từ chối thực hiện một kế hoạch phi đạo đức",
+          "Biết khi nào nên bẻ cong các quy tắc"
+        ],
+        "shadow": [
+          "Lợi dụng người khác",
+          "Đe dọa người khác",
+          "Hành động một cách phi đạo đức",
+          "Chọn chiến đấu",
+          "Dùng lời nói để xúi giục người khác bạo lực, phi lý",
+          "Bỏ qua các quy tắc bạn đã đồng ý tuân theo",
+          "Quan tâm đến bản thân trong khi cho phép làm tổn hại đến người khác",
+          "Hả hê vì chiến thắng"
+        ]
+      },
+      "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+      "Astrology": "Venus in Aquarius",
+      "Affirmation": "\"Even as I care for myself, I am mindful of the needs of others.\"",
+      "Questions to Ask": [
+        "Tôi cư xử thế nào khi giành chiến thắng? Điều đó nói gì về tôi?",
+        "Làm sao tôi có thể làm những việc cần thiết mà không khiến người khác cảm thấy thất bại?",
+        "Sự khác biệt giữa hành động ích kỷ và hành động vì lợi ích tốt nhất của tôi là gì?"
+      ],
+      "nameVn": "Năm thanh kiếm"
+    },
+    {
+      "name": "Six of Swords",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s06.jpg",
+      "fortune_telling": [
+        "You'll soon go on a long journey over water",
+        "Hành động có hậu quả không lường trước được nên hãy chuẩn bị sẵn sàng"
+      ],
+      "keywords": [
+        "sự thích ứng",
+        "điều chỉnh",
+        "khoa học",
+        "du lịch"
+      ],
+      "meanings": {
+        "light": [
+          "Tận dụng tốt nhất tình huống xấu",
+          "Phục hồi từ thất bại",
+          "Đặt lại kỳ vọng",
+          "Thực hiện các khoản phụ cấp cho những trường hợp bất ngờ",
+          "Giúp đỡ người khác đang gặp hoàn cảnh khó khăn",
+          "Thay đổi cách bạn nhìn thế giới",
+          "Mở rộng tầm nhìn của bạn thông qua học tập hoặc du lịch"
+        ],
+        "shadow": [
+          "Từ chối chấp nhận rằng mọi thứ đã thay đổi",
+          "Đóng vai nạn nhân",
+          "Từ chối ý tưởng rằng hành động của bạn có hậu quả",
+          "Áp dụng tiêu chuẩn khoa học vào vấn đề đức tin hoặc nhầm lẫn đức tin với khoa học",
+          "Tin rằng cả thế giới sẽ giống như góc nhỏ của bạn"
+        ]
+      },
+      "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+      "Astrology": "Mercury in Aquarius",
+      "Affirmation": "\"I keep an open mind.\"",
+      "Questions to Ask": [
+        "Những giả định nào chi phối suy nghĩ của tôi?",
+        "Tôi sẵn sàng giúp đỡ người khác đến mức nào? Để yêu cầu nó khi tôi cần nó?",
+        "Tôi đã chuẩn bị như thế nào để đối phó với sự thay đổi? Với kết quả bất ngờ?"
+      ],
+      "nameVn": "Sáu thanh kiếm"
+    },
+    {
+      "name": "Seven of Swords",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s07.jpg",
+      "fortune_telling": [
+        "Đừng cho rằng những người xung quanh xứng đáng với sự tin tưởng của bạn",
+        "Yêu cầu hạch toán về nơi mọi người đã đến và những gì họ đã làm"
+      ],
+      "keywords": [
+        "sự không trung thực",
+        "sự giả định",
+        "sự lén lút",
+        "giả định"
+      ],
+      "meanings": {
+        "light": [
+          "Từ chối làm điều gì đó không trung thực, ngay cả khi không có nguy cơ bị bắt",
+          "Xử lý tình huống khó khăn một cách khéo léo",
+          "Pointing out assumptions",
+          "Hành động có đạo đức ở nơi công cộng và nơi riêng tư",
+          "Sống một cuộc sống không thể chê trách"
+        ],
+        "shadow": [
+          "Ăn trộm hoặc nói dối",
+          "Làm bất cứ điều gì bạn có thể làm được, đơn giản chỉ vì bạn có thể",
+          "Đang tìm cách khắc phục hậu quả",
+          "Biện minh cho hành vi xấu xa bằng cách tập trung vào sự xấu xa của người khác",
+          "Không xem xét động cơ và thành kiến của chính mình"
+        ]
+      },
+      "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+      "Astrology": "Moon in Aquarius",
+      "Affirmation": "\"I hold myself to the highest ethical standards.\"",
+      "Questions to Ask": [
+        "Tôi đang đưa ra những giả định gì?",
+        "Ý thức đạo đức của tôi được xác định rõ ràng đến mức nào?",
+        "Tôi nên phản ứng thế nào khi biết người khác đang vi phạm quy tắc?"
+      ],
+      "nameVn": "Bảy thanh kiếm"
+    },
+    {
+      "name": "Eight of Swords",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s08.jpg",
+      "fortune_telling": [
+        "Hãy thôi đóng vai nạn nhân đi",
+        "Một khi bạn nhận ra mình là trở ngại lớn nhất của chính mình thì không gì có thể cản trở bạn"
+      ],
+      "keywords": [
+        "hạn chế",
+        "giới hạn",
+        "sự giam cầm",
+        "sự bất lực"
+      ],
+      "meanings": {
+        "light": [
+          "Tôn trọng giới hạn",
+          "Tôn trọng các quy tắc",
+          "Quyết định ăn kiêng vì sức khỏe của bạn",
+          "Nhận ra rằng bạn không phải lúc nào cũng có thể kiểm soát được",
+          "Xác định những trở ngại để tiến bộ hơn nữa",
+          "Từ chối suy nghĩ về những lựa chọn không lành mạnh hoặc phi đạo đức",
+          "Yêu cầu hỗ trợ"
+        ],
+        "shadow": [
+          "Cảm thấy bị mắc kẹt",
+          "Lạc vào mê cung của các quy tắc và quy định",
+          "Đầu hàng tuyệt vọng",
+          "Đóng vai nạn nhân",
+          "Cho phép người khác ra lệnh những gì bạn có thể và không thể làm",
+          "Trở nên bất lực",
+          "Có rất ít lựa chọn",
+          "Không tìm được lối thoát"
+        ]
+      },
+      "Numerology": "8 (The Action: movement, outer work, swiftness)",
+      "Astrology": "Jupiter in Gemini",
+      "Affirmation": "\"I know my own limits.\"",
+      "Questions to Ask": [
+        "Ai được trao quyền để cắt băng đỏ?",
+        "Chính xác thì những trở ngại là gì? Chính xác thì cần những nguồn lực nào để di chuyển chúng?",
+        "Sự bất lực của bạn là vấn đề về thái độ ở mức độ nào?"
+      ],
+      "nameVn": "Tám thanh kiếm"
+    },
+    {
+      "name": "Nine of Swords",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s09.jpg",
+      "fortune_telling": [
+        "Nếu bạn thực hiện hành động mà bạn đang cân nhắc bây giờ, bạn sẽ phải hối tiếc trong tương lai"
+      ],
+      "keywords": [
+        "sự ăn năn",
+        "lo lắng",
+        "quẫn trí",
+        "kết luận"
+      ],
+      "meanings": {
+        "light": [
+          "Từ chối lo lắng về những gì bạn không thể kiểm soát",
+          "Từ chối sự lo lắng",
+          "Đánh giá thành tích của chính bạn bằng sự tử tế và dịu dàng",
+          "Dùng thiền để xoa dịu tâm trí phiền muộn",
+          "Đối mặt với những cơn ác mộng và nỗi sợ hãi",
+          "Rút ra kết luận và loại bỏ một vấn đề ra khỏi tâm trí bạn"
+        ],
+        "shadow": [
+          "Hành hạ bản thân bằng sự hối tiếc",
+          "Đoán thứ hai mọi hành động của bạn",
+          "Đánh đập bản thân vì những lỗi lầm của mình",
+          "trầm cảm",
+          "Bị ám ảnh bởi những sai sót và những chi tiết bị bỏ qua",
+          "Từ chối giải quyết căng thẳng theo cách lành mạnh",
+          "Làm hỏng khả năng trân trọng hiện tại bằng cách đắm chìm trong quá khứ",
+          "Tranh luận về các quyết định không thể đảo ngược"
+        ]
+      },
+      "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+      "Astrology": "Mars in Gemini",
+      "Affirmation": "\"I do not worry about what I cannot control.\"",
+      "Questions to Ask": [
+        "Sự lo lắng đóng vai trò gì trong hoàn cảnh hiện tại của bạn?",
+        "Bạn có thể dành năng lượng mà bạn đang dành cho sự lo lắng vào mục đích nào khác?",
+        "Làm sao bạn có thể biết khi nào đã đến lúc ngừng suy nghĩ và bắt đầu hành động?"
+      ],
+      "nameVn": "Chín thanh kiếm"
+    },
+    {
+      "name": "Ten of Swords",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s10.jpg",
+      "fortune_telling": [
+        "Thảm họa",
+        "Trì hoãn kế hoạch và không hành động cho đến khi có điềm tốt hơn"
+      ],
+      "keywords": [
+        "kiệt sức",
+        "hủy hoại",
+        "thảm họa",
+        "sức chịu đựng",
+        "nỗi ám ảnh"
+      ],
+      "meanings": {
+        "light": [
+          "Nhận thấy những dấu hiệu cho thấy bạn đã đạt đến giới hạn của mình",
+          "Chú ý đến những gì cơ thể bạn đang cố nói với bạn",
+          "Chấp nhận nhu cầu nghỉ ngơi và đổi mới",
+          "Thừa nhận rằng bạn đã chạm đáy",
+          "Cam kết thay đổi hoàn toàn",
+          "Biết điều tồi tệ nhất đã qua"
+        ],
+        "shadow": [
+          "Chấp nhận thất bại sớm",
+          "Khiến bản thân kiệt sức hoàn toàn, đặc biệt là về mặt tinh thần",
+          "Trải qua sự suy sụp tinh thần",
+          "Bị ám ảnh bởi một vấn đề đến mức đột phá",
+          "từ bỏ",
+          "Từ chối chuyển từ suy nghĩ sang hành động",
+          "Những suy nghĩ không lành mạnh sâu sắc"
+        ]
+      },
+      "Numerology": "10 (The End: finality, completion, exhaustion)",
+      "Astrology": "Sun in Gemini",
+      "Affirmation": "\"When my limits are exceeded, I take action on my own behalf.\"",
+      "Questions to Ask": [
+        "Những dấu hiệu nào cho thấy thời gian tranh luận đã kết thúc?",
+        "Làm sao bạn có thể biết khi nào sự quan tâm đã nhường chỗ cho nỗi ám ảnh?",
+        "Khi đạt đến giới hạn của chính mình, bạn có thể tìm sự trợ giúp ở đâu?"
+      ],
+      "nameVn": "Mười thanh kiếm"
+    },
+    {
+      "name": "Page of Swords",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s11.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một chàng trai hoặc cô gái trẻ với phong thái thông minh, thoáng đãng, có thể sinh ra là Ma Kết, Bảo Bình hoặc Song Ngư, những người muốn học điều gì đó mới từ bạn hoặc thảo luận với bạn"
+      ],
+      "keywords": [
+        "sinh viên",
+        "người học việc",
+        "học bổng",
+        "thông tin"
+      ],
+      "meanings": {
+        "light": [
+          "Theo đuổi một lộ trình học tập",
+          "Đặt câu hỏi hay",
+          "Đầu tư thời gian vào học tập và thực hành",
+          "Đang nghiên cứu",
+          "Tạo thói quen học hỏi những điều mới",
+          "Bắt đầu một cuộc điều tra",
+          "Nêu rõ những điều bạn cần biết",
+          "Tìm người cố vấn hoặc giáo viên"
+        ],
+        "shadow": [
+          "Giả vờ có kiến thức hoặc sự tinh tế mà bạn không có",
+          "Gian lận trong kỳ thi",
+          "Giả vờ quan tâm như một cách để đạt được sự ưu ái",
+          "Chỉ xem xét các bằng chứng hỗ trợ cho kết luận bạn đã rút ra",
+          "Từ chối lời khuyên khôn ngoan của các giáo viên giàu kinh nghiệm"
+        ]
+      },
+      "Elemental": "Earth of Air.",
+      "Affirmation": "\"I am ready to make good decisions.\"",
+      "Questions to Ask": [
+        "Bạn cảm thấy thoải mái đến mức nào khi bộc lộ sự thiếu hiểu biết của mình?",
+        "Dấu hiệu của một học sinh giỏi là gì?",
+        "Bạn cởi mở với thông tin mới ở mức độ nào?"
+      ],
+      "nameVn": "Trang kiếm"
+    },
+    {
+      "name": "Knight of Swords",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s12.jpg",
+      "fortune_telling": [
+        "Một sai lầm khiến ai đó phải nói điều gì đó khiến họ hối hận",
+        "Nếu đây là bạn, hãy chuẩn bị xin lỗi và bước tiếp"
+      ],
+      "keywords": [
+        "sự thẳng thắn",
+        "trí thông minh",
+        "sự sắc bén",
+        "điều tra"
+      ],
+      "meanings": {
+        "light": [
+          "Nói lên suy nghĩ của bạn",
+          "Làm cho ý kiến của bạn được biết đến",
+          "Đưa ra những lời phê bình mang tính xây dựng",
+          "Chia sẻ kiến thức của bạn",
+          "Thực hiện những quan sát sâu sắc",
+          "Xác định vấn đề",
+          "Làm rõ những gì người khác đã nói",
+          "Đưa ra định hướng rõ ràng cho người khác",
+          "Khám phá sự thật"
+        ],
+        "shadow": [
+          "Nêu ý kiến ​​của bạn như thực tế",
+          "Chọn chiến đấu",
+          "Bắt đầu đối số",
+          "Dùng những lời lăng mạ khéo léo để làm suy yếu lòng tin của người khác",
+          "Ném lý do ra ngoài cửa sổ",
+          "Nói mà không quan tâm đến cảm xúc của người khác",
+          "Đi săn phù thủy",
+          "Bằng chứng bóp méo"
+        ]
+      },
+      "Elemental": "Air of Air.",
+      "Affirmation": "\"I temper my insights with tact.\"",
+      "Questions to Ask": [
+        "Tôi thực sự cần biết điều gì?",
+        "Tôi đã điều tra sự thật đằng sau tình huống của mình ở mức độ nào?",
+        "Làm thế nào tôi có thể chia sẻ những gì tôi biết mà không khiến người khác xa lánh?"
+      ],
+      "nameVn": "Hiệp sĩ kiếm"
+    },
+    {
+      "name": "Queen of Swords",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s13.jpg",
+      "fortune_telling": [
+        "Lá bài này tượng trưng cho một người phụ nữ có bản chất nghệ thuật, trí tuệ, có khả năng sinh từ 12 tháng 9 đến 12 tháng 10, người sử dụng khả năng giao tiếp thông minh, tích cực để thuyết phục người khác theo quan điểm của mình."
+      ],
+      "keywords": [
+        "ân sủng",
+        "kỹ năng",
+        "trí thông minh",
+        "quyến rũ",
+        "năng khiếu"
+      ],
+      "meanings": {
+        "light": [
+          "Thực hiện chiến thuật hoặc sử dụng ngoại giao",
+          "Xoa dịu tình thế căng thẳng",
+          "Biết phải nói gì và nói như thế nào",
+          "Làm cho người khác cảm thấy thoải mái và tự tin",
+          "Mang lại những điều tốt đẹp nhất cho mọi người",
+          "Có cách dùng từ",
+          "Kể chuyện cười",
+          "Có năng khiếu về âm nhạc, toán học, nghệ thuật hoặc khoa học"
+        ],
+        "shadow": [
+          "Biết chính xác những gì cần nói để tiêu diệt người khác",
+          "Giữ lại thông tin quan trọng",
+          "Dùng lưỡi gai để chọc giận người khác",
+          "Dùng lời mỉa mai",
+          "Bắt chước người khác một cách không tử tế",
+          "Thắp sáng những mảnh đời kém may mắn",
+          "Thiếu tôn trọng",
+          "Không sử dụng được tài năng được ban tặng"
+        ]
+      },
+      "Elemental": "Water of Air.",
+      "Affirmation": "\"I make the truth easier to hear.\"",
+      "Questions to Ask": [
+        "Tôi có năng khiếu gì? Món quà đặc biệt của tôi có thể hữu ích như thế nào bây giờ?",
+        "Tôi có khả năng nói những điều cần nói ở mức độ nào?",
+        "Cách tốt nhất có thể để nói những gì tôi muốn nói là gì?"
+      ],
+      "nameVn": "Nữ hoàng kiếm"
+    },
+    {
+      "name": "King of Swords",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s14.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một người đàn ông lớn tuổi với tinh thần sâu sắc và thận trọng, có khả năng sinh từ ngày 11 tháng 5 đến ngày 10 tháng 6, người được biết đến với tính chính trực và khả năng ra quyết định sắc bén."
+      ],
+      "keywords": [
+        "thiên tài",
+        "chuyên môn",
+        "quyết định",
+        "phán quyết"
+      ],
+      "meanings": {
+        "light": [
+          "Thể hiện bản thân bằng sự kiên quyết và uy quyền",
+          "Đưa ra quyết định cuối cùng",
+          "Tư vấn chuyên gia",
+          "Kêu gọi cố vấn và tư vấn",
+          "Đi đến kết luận cuối cùng",
+          "Đạt được thỏa thuận có lợi dựa trên thông tin chính xác"
+        ],
+        "shadow": [
+          "Nhấn mạnh vào lời cuối cùng",
+          "Phô trương khả năng trí tuệ của bạn",
+          "Nói \"vượt qua đầu\" người khác",
+          "Lúng túng trước một quyết định quan trọng",
+          "Thường xuyên thay đổi suy nghĩ của bạn",
+          "Từ chối đưa ra những lựa chọn có lợi nhất cho bản thân",
+          "Mong ước vô ích bạn có thể rút lại những gì đã nói"
+        ]
+      },
+      "Elemental": "Fire of Air.",
+      "Affirmation": "\"My word is my bond.\"",
+      "Questions to Ask": [
+        "Quyết định của bạn sẽ là gì nếu bạn phải đưa ra phán quyết mang tính ràng buộc ngay bây giờ?",
+        "Bạn có cảm thấy thoải mái khi nói chính xác những gì bạn muốn nói không? Bạn có thường xuyên tiết chế những điều mình phải nói vì sợ làm mất lòng người khác không?",
+        "Nếu bạn hỏi người khác, \"Lĩnh vực chuyên môn của tôi là gì?\" họ sẽ nói gì?"
+      ],
+      "nameVn": "Vua kiếm"
+    },
+    {
+      "name": "Ace of Wands",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w01.jpg",
+      "fortune_telling": [
+        "Ai đó có \"điểm nóng\" đối với bạn",
+        "Một lời mời làm việc mới đang đến với bạn",
+        "Đi nhẹ nhàng và mang theo một cây gậy lớn"
+      ],
+      "keywords": [
+        "mong muốn",
+        "nguồn cảm hứng",
+        "tầm nhìn",
+        "sự sáng tạo",
+        "phát minh"
+      ],
+      "meanings": {
+        "light": [
+          "Được truyền cảm hứng",
+          "Xác định mục tiêu quan trọng",
+          "Được trao cơ hội để làm bất cứ điều gì bạn muốn làm",
+          "Đưa ra hoặc nhận chỉ đạo",
+          "Nhìn thấy một giải pháp",
+          "Tạo ra một cái gì đó mới",
+          "Bị kích thích, về mặt tình dục hoặc sáng tạo"
+        ],
+        "shadow": [
+          "Không tận dụng được cơ hội lớn",
+          "Làm việc kém hiệu quả hoặc lười biếng",
+          "Nỗ lực không thỏa đáng",
+          "Làm việc hướng tới mục tiêu nhưng thiếu nguồn lực hoặc sáng kiến để đạt được thành công",
+          "Đặt mục tiêu không phù hợp",
+          "Không thể giữ vững lập trường"
+        ]
+      },
+      "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+      "Astrology": "Aries, Leo, Sagittarius",
+      "Affirmation": "\"I jump at the opportunity to pursue my heart's desire.\"",
+      "Questions to Ask": [
+        "Tôi thực sự muốn gì, hơn bất cứ điều gì khác?",
+        "Điều gì xảy ra nếu tôi để cơ hội này trôi qua?",
+        "Tôi đã xác định phương hướng, giá trị và mục tiêu của mình rõ ràng đến mức nào?"
+      ],
+      "nameVn": "Ace of Wands"
+    },
+    {
+      "name": "Two of Wands",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w02.jpg",
+      "fortune_telling": [
+        "Hãy coi chừng những người bạn giả dối",
+        "Đừng có mồm mép; nói những gì bạn nghĩ và làm những gì bạn muốn làm"
+      ],
+      "keywords": [
+        "xung đột",
+        "quyết định",
+        "tùy chọn",
+        "cá tính"
+      ],
+      "meanings": {
+        "light": [
+          "Có sự lựa chọn",
+          "Đưa ra hoặc được đưa ra một lựa chọn",
+          "Nhìn thấy giá trị của cách tiếp cận của người khác",
+          "Hiểu rằng có nhiều cách để \"lột da mèo\"",
+          "Làm thành công nhiều việc cùng một lúc",
+          "Được trao quyền để đưa ra lựa chọn"
+        ],
+        "shadow": [
+          "Trình bày sai ý định của bạn",
+          "Làm một việc trong khi lại mong muốn một việc khác",
+          "Thay đổi lộ trình giữa chừng mà không có lý do chính đáng",
+          "Từ chối thay đổi mục tiêu ngay cả khi theo đuổi nó không còn ý nghĩa nữa",
+          "Không quan tâm đến ý kiến đóng góp của người khác"
+        ]
+      },
+      "Numerology": "2 (The Other: division, debate, duality)",
+      "Astrology": "Mars in Aries",
+      "Affirmation": "\"With my goals in mind, I make confident choices.\"",
+      "Questions to Ask": [
+        "Trong một cuộc xung đột, làm thế nào để bạn quyết định ai là người chiến thắng?",
+        "Những giá trị nào chi phối quá trình ra quyết định của bạn?",
+        "Bạn sẽ lựa chọn gì nếu bạn không có sự lựa chọn nào cả?"
+      ],
+      "nameVn": "Hai cây đũa phép"
+    },
+    {
+      "name": "Three of Wands",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w03.jpg",
+      "fortune_telling": [
+        "Bạn sẽ sớm lên kế hoạch cho một chuyến đi",
+        "Hãy cảnh giác: tàu của bạn đang đến"
+      ],
+      "keywords": [
+        "thực hiện",
+        "hành động",
+        "thăm dò"
+      ],
+      "meanings": {
+        "light": [
+          "Đưa kế hoạch vào hoạt động",
+          "Thực hiện bước đầu tiên quan trọng đó",
+          "Làm cho những điều tốt đẹp xảy ra",
+          "Vượt quá giới hạn của bạn",
+          "Rực rỡ những con đường mới",
+          "Chạy xuống đất",
+          "Chứng kiến kế hoạch của bạn thành hiện thực"
+        ],
+        "shadow": [
+          "Trì hoãn",
+          "Biết phải làm gì nhưng không chịu làm",
+          "Khởi động một dự án mà không có định nghĩa rõ ràng về việc ai nên làm gì",
+          "Từ chối cơ hội thử điều gì đó mới",
+          "Không hoàn thành những gì bạn bắt đầu"
+        ]
+      },
+      "Numerology": "3 (The Result: expression, productivity, output)",
+      "Astrology": "Sun in Aries",
+      "Affirmation": "\"I take the steps necessary to put my plans in action.\"",
+      "Questions to Ask": [
+        "Làm thế nào bạn có thể tạo thói quen phá vỡ thói quen của mình?",
+        "Làm thế nào bạn có thể là người lãnh đạo quyết đoán trong hoàn cảnh này?",
+        "Kế hoạch hành động của bạn trong tuần, tháng, năm hoặc thập kỷ tới là gì?"
+      ],
+      "nameVn": "Ba cây đũa phép"
+    },
+    {
+      "name": "Four of Wands",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w04.jpg",
+      "fortune_telling": [
+        "Ai đó đang theo dõi và đánh giá công việc của bạn",
+        "Bạn có thể sớm nhận được thiệp mời đám cưới"
+      ],
+      "keywords": [
+        "lễ kỷ niệm",
+        "sự hân hoan",
+        "cộng đồng",
+        "làm việc theo nhóm",
+        "hoàn thành"
+      ],
+      "meanings": {
+        "light": [
+          "Chia sẻ trong một lễ kỷ niệm lớn",
+          "Chia sẻ trong tinh thần chung về thành tựu và thành công",
+          "Chuẩn bị cho một bữa tiệc",
+          "Cùng nhau hướng tới một mục tiêu chung",
+          "Trao hoặc giành giải thưởng"
+        ],
+        "shadow": [
+          "Giữ mũi của bạn vào đá mài",
+          "Công nhận công việc tốt bằng cách yêu cầu làm thêm",
+          "Không chia sẻ trong lễ kỷ niệm nhóm",
+          "Để nho chua đầu độc khoảnh khắc của bạn dưới ánh mặt trời",
+          "Từ chối làm phần việc của bạn"
+        ]
+      },
+      "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+      "Astrology": "Venus in Aries",
+      "Affirmation": "\"My contributions are worthy of celebration.\"",
+      "Questions to Ask": [
+        "Tôi đang làm phần việc của mình ở mức độ nào?",
+        "Loại sự công nhận nào sẽ có ý nghĩa nhất?",
+        "Làm thế nào một lễ kỷ niệm bây giờ có thể tác động đến tinh thần cộng đồng?"
+      ],
+      "nameVn": "Bốn cây đũa phép"
+    },
+    {
+      "name": "Five of Wands",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w05.jpg",
+      "fortune_telling": [
+        "Chuẩn bị cho một cuộc chiến với người bạn thân nhất của bạn",
+        "Hãy nhớ rằng: một khi bạn đã buông lời, bạn không thể lấy lại được"
+      ],
+      "keywords": [
+        "sự đối đầu",
+        "sự gián đoạn",
+        "sự phân biệt",
+        "phản đối",
+        "xung đột"
+      ],
+      "meanings": {
+        "light": [
+          "Bình tĩnh bày tỏ quan điểm bất đồng",
+          "Cho phép ai đó sử dụng phương pháp riêng của mình để hoàn thành công việc",
+          "Mở sàn để thảo luận hoặc tranh luận",
+          "So sánh tiến độ đạt được cho đến nay với các tiêu chuẩn được đặt ra trước đó"
+        ],
+        "shadow": [
+          "Chỉ trích người khác vì những ý kiến lố bịch của họ",
+          "Chọn chiến đấu",
+          "Đưa ra những lời chỉ trích mang tính phá hoại",
+          "Dụ dỗ mọi người bằng những lời lẽ gai góc",
+          "Phá vỡ sự tiến bộ bằng vô số lời phản đối vô nghĩa"
+        ]
+      },
+      "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+      "Astrology": "Saturn in Leo",
+      "Affirmation": "\"I can express dissent in constructive ways.\"",
+      "Questions to Ask": [
+        "Vấn đề hiện tại của bạn đáng để đấu tranh ở mức độ nào?",
+        "Có những lựa chọn thay thế nào cho xung đột hoàn toàn?",
+        "Điều gì xảy ra trong một \"cuộc chiến công bằng?\" Làm thế nào bạn có thể giữ cuộc chiến này công bằng?"
+      ],
+      "nameVn": "Năm cây đũa phép"
+    },
+    {
+      "name": "Six of Wands",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w06.jpg",
+      "fortune_telling": [
+        "Ai đó đang tổ chức một bữa tiệc cho bạn, nhưng không phải ai cũng cảm thấy hài lòng về thành công gần đây của bạn",
+        "Hãy coi chừng những người bạn ghen tị"
+      ],
+      "keywords": [
+        "chiến thắng",
+        "thành tích",
+        "sự thành công",
+        "chiến thắng"
+      ],
+      "meanings": {
+        "light": [
+          "Vượt trội so với các đồng nghiệp của bạn",
+          "Chiến thắng một cuộc thi",
+          "Được công nhận là người có năng lực",
+          "Có \"khoảnh khắc nổi bật\" của bạn",
+          "Được đám đông cổ vũ",
+          "Nhận giải thưởng",
+          "Nhận được sự ngưỡng mộ của người khác",
+          "Nói với ai đó, \"Làm tốt lắm!\""
+        ],
+        "shadow": [
+          "Là một người chiến thắng tồi",
+          "Cho phép thành tích của bạn thổi phồng cái tôi của bạn",
+          "Xem thường những người có vẻ kém năng lực hơn",
+          "Khao khát trở thành trung tâm của sự chú ý",
+          "Đưa ra hoặc nhận lời khen ngợi không chân thành",
+          "Ghen tị với thành tích của người khác"
+        ]
+      },
+      "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+      "Astrology": "Jupiter in Leo",
+      "Affirmation": "\"I value sincere praise.\"",
+      "Questions to Ask": [
+        "Tôi khao khát sự công nhận nào? Tại sao?",
+        "Tôi có thể thoải mái khen ngợi thành tích của người khác như thế nào?",
+        "Điều gì xảy ra khi cuộc diễu hành kết thúc?"
+      ],
+      "nameVn": "Sáu cây đũa phép"
+    },
+    {
+      "name": "Seven of Wands",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w07.jpg",
+      "fortune_telling": [
+        "Đừng ngạc nhiên trước sự công kích cá nhân",
+        "Chuẩn bị để bảo vệ bản thân hoặc người bạn yêu thương"
+      ],
+      "keywords": [
+        "lòng dũng cảm",
+        "giải quyết",
+        "quyết tâm"
+      ],
+      "meanings": {
+        "light": [
+          "Từ chối im lặng vì sợ hãi hoặc đe dọa",
+          "Tiếp tục cuộc chiến chống lại mọi khó khăn",
+          "Trở nên hung dữ",
+          "Bảo vệ bản thân trước các cuộc tấn công về thể chất và tinh thần",
+          "Từ chối chịu đựng sự lạm dụng",
+          "Bám sát các giá trị của bạn bất chấp mọi áp lực phải từ bỏ chúng"
+        ],
+        "shadow": [
+          "Có một con chip trên vai của bạn",
+          "Chấp nhận những rủi ro không cần thiết như một phương tiện để chứng tỏ sự dũng cảm của bạn",
+          "Tìm cơ hội để phạm tội",
+          "Đáp lại những lời chỉ trích mang tính xây dựng bằng sự phòng thủ",
+          "Từ chối đứng lên vì bản thân và niềm tin của bạn"
+        ]
+      },
+      "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+      "Astrology": "Mars in Leo",
+      "Affirmation": "\"I am willing to take a stand for what I believe in.\"",
+      "Questions to Ask": [
+        "Khi nào bạn cảm thấy bị đe dọa nhất? Khi nào bạn phòng thủ?",
+        "Bạn có khả năng tự vệ như thế nào?",
+        "Những loại niềm tin nào đáng được bảo vệ?"
+      ],
+      "nameVn": "Bảy cây đũa phép"
+    },
+    {
+      "name": "Eight of Wands",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w08.jpg",
+      "fortune_telling": [
+        "Hãy để ý một lá thư đáng ngạc nhiên qua đường bưu điện",
+        "Cả thế giới của bạn sắp bị bỏ ngoài tai"
+      ],
+      "keywords": [
+        "tốc độ",
+        "sự nhanh nhẹn",
+        "sự đáp ứng",
+        "thay đổi"
+      ],
+      "meanings": {
+        "light": [
+          "Hành động nhanh chóng",
+          "Tiến về phía trước với một kế hoạch càng nhanh càng tốt",
+          "Tiếp thêm sinh lực cho bản thân",
+          "Thích ứng với những thay đổi đột ngột",
+          "Chấp nhận những bước thụt lùi",
+          "Chấp nhận ý tưởng rằng không có gì giữ nguyên mãi mãi",
+          "Phản ứng nhanh chóng và thích hợp với những vấn đề không lường trước được"
+        ],
+        "shadow": [
+          "Đầu hàng trước sự hoảng loạn",
+          "Chạy vòng tròn và la hét",
+          "Khăng khăng mọi thứ phải luôn như cũ",
+          "Khuấy nồi chỉ để xem điều gì sẽ xảy ra",
+          "Vội vàng người khác",
+          "Từ chối đánh giá lại lịch trình hoặc chương trình, ngay cả khi nó rõ ràng không còn phù hợp"
+        ]
+      },
+      "Numerology": "8 (The Action: movement, outer work, swiftness)",
+      "Astrology": "Mercury in Sagittarius",
+      "Affirmation": "\"I adapt quickly to change.\"",
+      "Questions to Ask": [
+        "Bạn thích ứng với sự thay đổi nhanh đến mức nào?",
+        "Phản ứng của bạn sẽ như thế nào trước sự thay đổi quá lớn và đột ngột?",
+        "Những thay đổi nào đang diễn ra trên đường chân trời của bạn? Bạn đã chuẩn bị tốt như thế nào cho họ?"
+      ],
+      "nameVn": "Tám cây đũa phép"
+    },
+    {
+      "name": "Nine of Wands",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w09.jpg",
+      "fortune_telling": [
+        "Đừng thư giãn; còn nhiều điều nữa sắp tới",
+        "Bài kiểm tra mà bạn đang phải đối mặt đang diễn ra vì một lý do: để cho bạn thấy những người bạn thực sự của bạn là ai"
+      ],
+      "keywords": [
+        "sự dẻo dai",
+        "kiên trì",
+        "sức chịu đựng",
+        "lòng trung thành",
+        "phát hành"
+      ],
+      "meanings": {
+        "light": [
+          "Gắn bó với nó trong suốt thời gian",
+          "Thực hiện lời hứa và nghĩa vụ của bạn",
+          "Chịu đựng dưới áp lực đáng kinh ngạc",
+          "Kéo mình vượt qua vạch đích",
+          "Tự vực dậy bằng nỗ lực của chính mình",
+          "Từ chối bỏ cuộc",
+          "Tiến xa nhất có thể và hài lòng với thành tích của mình"
+        ],
+        "shadow": [
+          "Tự biến mình thành kẻ tử vì đạo",
+          "Từ bỏ bài viết của bạn",
+          "Bỏ cuộc khi có dấu hiệu phản đối đầu tiên",
+          "Bị ngăn cản thực hiện nghĩa vụ",
+          "Không đáng tin cậy",
+          "Từ chối buông bỏ thứ gì đó cần được giải phóng",
+          "Đánh chết ngựa"
+        ]
+      },
+      "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+      "Astrology": "Moon in Sagittarius",
+      "Affirmation": "\"When the going gets tough, I stay the course.\"",
+      "Questions to Ask": [
+        "Làm thế nào để bạn đối phó khi mọi thứ trở nên thực sự khó khăn?",
+        "Khi bạn cảm thấy chán nản, điều gì khuyến khích bạn tiếp tục?",
+        "Tại thời điểm nào bạn có thể để tình trạng này qua đi?"
+      ],
+      "nameVn": "Chín cây đũa phép"
+    },
+    {
+      "name": "Ten of Wands",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w10.jpg",
+      "fortune_telling": [
+        "Bạn mệt mỏi rồi",
+        "Hãy lùi lại, dành thời gian và để người khác xử lý mọi việc một lúc"
+      ],
+      "keywords": [
+        "kiệt sức",
+        "sức đề kháng",
+        "gánh nặng",
+        "sự áp bức"
+      ],
+      "meanings": {
+        "light": [
+          "Giữ của riêng bạn trong hoàn cảnh khắc nghiệt",
+          "Giúp đỡ người khác gánh gánh nặng của họ",
+          "Đến giúp đỡ người bị áp bức",
+          "Biết và thành thật về giới hạn của chính mình",
+          "Nhận biết khi nào bạn không phù hợp với một nhiệm vụ cụ thể"
+        ],
+        "shadow": [
+          "Đảm nhận nhiều công việc hơn mức bạn biết mình có thể xử lý",
+          "Từ chối nói “Không” khi bạn đã quá tải",
+          "Tạo thói quen làm thêm giờ",
+          "Bảo vệ người khác khỏi phải đối mặt với hậu quả do khả năng phán đoán kém cỏi của chính họ",
+          "Thường xuyên mở rộng bản thân quá mức"
+        ]
+      },
+      "Numerology": "10 (The End: finality, completion, exhaustion)",
+      "Astrology": "Saturn in Sagittarius",
+      "Affirmation": "\"I respect my own limits.\"",
+      "Questions to Ask": [
+        "Làm thế nào bạn biết khi nào bạn đi đến cuối sợi dây của mình?",
+        "Bạn dễ dàng nói không với các dự án và yêu cầu mới như thế nào?",
+        "Những dự án nào bạn có thể ủy quyền... hoặc loại bỏ?"
+      ],
+      "nameVn": "Mười cây đũa phép"
+    },
+    {
+      "name": "Page of Wands",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w11.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một chàng trai hoặc cô gái trẻ với phong thái bốc lửa, nhiệt tình, có thể sinh ra là Cự Giải, Sư Tử hoặc Xử Nữ, những người muốn bắt đầu một mối quan hệ mới với bạn"
+      ],
+      "keywords": [
+        "sự nhiệt tình",
+        "sự háo hức",
+        "sự tự tin",
+        "xác nhận",
+        "sự khẳng định"
+      ],
+      "meanings": {
+        "light": [
+          "Nhảy vào một cơ hội mới",
+          "Là một người cổ vũ hoặc người ủng hộ nhiệt tình cho sự nghiệp của bạn",
+          "Là một tín đồ đích thực",
+          "Bước những bước đầu tiên hướng tới độc lập",
+          "Tin tưởng vào khả năng của chính mình",
+          "Yêu cầu phản hồi"
+        ],
+        "shadow": [
+          "Dựa toàn bộ hình ảnh bản thân của bạn vào những gì người khác nghĩ",
+          "Nắm bắt mọi ý tưởng mới nảy ra theo cách của bạn mà không cần thắc mắc",
+          "Có thói quen giảm giá đầu vào hoặc phản hồi từ người khác",
+          "Quá háo hức “tự làm” đến mức cản trở sự tiến bộ của chính mình"
+        ]
+      },
+      "Elemental": "Earth of Fire.",
+      "Affirmation": "\"I can do this.\"",
+      "Questions to Ask": [
+        "Bạn dễ dàng thừa nhận sự thiếu kinh nghiệm của mình như thế nào?",
+        "Làm thế nào bạn có thể trở thành một sinh viên hoặc nhân viên tốt hơn?",
+        "Những phẩm chất nào sẽ giúp hành trình khám phá của người mới bắt đầu trở nên dễ dàng hơn?"
+      ],
+      "nameVn": "Trang của đũa phép"
+    },
+    {
+      "name": "Knight of Wands",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w12.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một người đàn ông có tính cách táo bạo, đầy nhiệt huyết, có khả năng sinh từ 12 tháng 7 đến 11 tháng 8, người muốn cuốn bạn đi."
+      ],
+      "keywords": [
+        "sự táo bạo",
+        "dũng cảm",
+        "niềm đam mê",
+        "sự thuyết phục",
+        "vận động"
+      ],
+      "meanings": {
+        "light": [
+          "Sạc trước",
+          "Tiến bộ nhanh chóng",
+          "Giới hạn từ chối",
+          "Làm choáng ngợp những người xung quanh bằng sự thông minh và quyến rũ của bạn",
+          "Thuyết phục người khác về quyền lãnh đạo của bạn",
+          "Thuyết phục người khác đi theo bạn",
+          "Là chất xúc tác cho sự thay đổi"
+        ],
+        "shadow": [
+          "Lúng túng về phía trước với kỹ năng hoặc thông tin không đầy đủ",
+          "Chạy theo cảm xúc của người khác",
+          "Dùng sự hấp dẫn giới tính để thao túng người khác",
+          "Áp đặt sự lãnh đạo hoặc hệ tư tưởng của bạn lên người khác",
+          "Bắt đầu nhiều dự án mà không hoàn thành bất kỳ dự án nào"
+        ]
+      },
+      "Elemental": "Air of Fire.",
+      "Affirmation": "\"I can lead the way to success.\"",
+      "Questions to Ask": [
+        "Bạn đã xác định được mục tiêu cuối cùng của mình ở mức độ nào?",
+        "Cách nhanh nhất để hoàn thành công việc là gì? Đây có phải là cách tốt nhất?",
+        "Đã bao lâu rồi bạn chưa nhìn lại để xem liệu những người khác có thực sự đi theo sự dẫn dắt của bạn không?"
+      ],
+      "nameVn": "Hiệp sĩ đũa phép"
+    },
+    {
+      "name": "Queen of Wands",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w13.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một người phụ nữ có tính cách hấp dẫn, hấp dẫn, có thể sinh từ 11 tháng 3 đến 20 tháng 4, người muốn quyến rũ bạn làm mọi việc theo cách của cô ấy."
+      ],
+      "keywords": [
+        "chú ý",
+        "sự hấp dẫn",
+        "sự thống nhất",
+        "sự hợp tác"
+      ],
+      "meanings": {
+        "light": [
+          "Chú ý kỹ",
+          "Giúp người khác tập trung vào vấn đề trước mắt",
+          "Khiến mọi người cùng nhau làm việc",
+          "Xác định điểm chung",
+          "Gắn kết mọi người lại với nhau, bất chấp sự khác biệt của họ",
+          "Sử dụng tâm lý học đảo ngược"
+        ],
+        "shadow": [
+          "Bị phân tâm hoặc sử dụng sự quyến rũ hoặc kỹ năng của mình để đánh lạc hướng người khác khỏi mục tiêu",
+          "Thu hút sự chú ý đến bản thân bằng những hành vi tiêu cực hoặc không lành mạnh",
+          "Làm gián đoạn các hoạt động nhóm như một phương tiện nuôi dưỡng cái tôi của chính bạn"
+        ]
+      },
+      "Elemental": "Water of Fire.",
+      "Affirmation": "\"I use my influence to promote unity.\"",
+      "Questions to Ask": [
+        "Tôi chu đáo đến mức nào?",
+        "Làm cách nào tôi có thể thu hút sự chú ý của mọi người vào những điểm chung của chúng tôi?",
+        "Tôi có thể thuyết phục mọi người làm điều tôi muốn họ làm ở mức độ nào?"
+      ],
+      "nameVn": "Nữ hoàng đũa phép"
+    },
+    {
+      "name": "King of Wands",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w14.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một người đàn ông lớn tuổi với tính cách chỉ huy, lôi cuốn, có khả năng sinh từ 13 tháng 11 đến 12 tháng 12, người thích đưa ra chỉ dẫn và bắt họ làm theo."
+      ],
+      "keywords": [
+        "sự sáng tạo",
+        "sự khéo léo",
+        "thành tích",
+        "phương hướng"
+      ],
+      "meanings": {
+        "light": [
+          "Kết hợp những thứ cũ lại với nhau theo những cách mới và thú vị",
+          "Đưa ra những giải pháp bất ngờ",
+          "Sử dụng kinh nghiệm của bạn để giải các câu đố và vấn đề",
+          "Làm những gì bạn đã đặt ra",
+          "Chỉ đạo nỗ lực của người khác"
+        ],
+        "shadow": [
+          "Sử dụng khả năng sáng tạo của bạn để thoát khỏi công việc lương thiện",
+          "Đầu tư nhiều năng lượng vào việc trốn tránh trách nhiệm",
+          "Khoe khoang về thành tích mà không vận dụng kiến thức chuyên môn của mình vào thực tế",
+          "Thống trị người khác"
+        ]
+      },
+      "Elemental": "Fire of Fire",
+      "Affirmation": "\"I use my authority and experience to get things done faster.\"",
+      "Questions to Ask": [
+        "Tôi là một nhà lãnh đạo tự tin đến mức nào?",
+        "Làm thế nào tôi có thể thể hiện sự tự tin hơn?",
+        "Làm cách nào tôi có thể cung cấp kiến thức chuyên môn của mình theo cách truyền cảm hứng cho người khác theo dõi tôi?"
+      ],
+      "nameVn": "Vua đũa phép"
+    },
+    {
+      "name": "Ace of Pentacles",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p01.jpg",
+      "fortune_telling": [
+        "Sức khỏe của bạn sẽ được cải thiện",
+        "Tấm séc bạn đang tìm kiếm thực sự có trong thư"
+      ],
+      "keywords": [
+        "sức khỏe",
+        "sự giàu có",
+        "tính thực tiễn",
+        "nhận được"
+      ],
+      "meanings": {
+        "light": [
+          "Vạch ra kế hoạch đạt được sự thịnh vượng",
+          "Nhận thức được các cơ hội cải thiện thu nhập hoặc sức khỏe",
+          "Nhận ra bạn có mọi thứ bạn cần",
+          "Trân trọng mọi thứ mà Vũ trụ đã ban tặng cho bạn",
+          "Nhận món quà hoàn hảo vào thời điểm hoàn hảo"
+        ],
+        "shadow": [
+          "Đắm mình trong chủ nghĩa tiêu dùng không ngừng",
+          "Muốn nhiều hơn, bất kể bạn có bao nhiêu",
+          "Bị ám ảnh về số dư tài khoản của bạn",
+          "Đau khổ vì bệnh đạo đức giả",
+          "Nhận phước lành mà không bày tỏ lòng biết ơn",
+          "Lấy những gì bạn muốn mà không quan tâm đến nhu cầu của người khác"
+        ]
+      },
+      "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+      "Astrology": "Capricorn, Taurus, Virgo",
+      "Affirmation": "\"I am open to and thankful for my blessings.\"",
+      "Questions to Ask": [
+        "Nếu tôi đưa ra quyết định chỉ dựa trên những mối quan tâm thực tế thì quyết định của tôi sẽ là gì?",
+        "Những nguồn lực nào có sẵn cho tôi?",
+        "Những quyết định của tôi sẽ có tác động vật chất và tài chính như thế nào?"
+      ],
+      "nameVn": "Ace of Pentials"
+    },
+    {
+      "name": "Two of Pentacles",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p02.jpg",
+      "fortune_telling": [
+        "Đã đến lúc cân đối ngân sách",
+        "Tránh sự cám dỗ chi tiêu những khoản tiền quan trọng vào những hàng hóa phù phiếm"
+      ],
+      "keywords": [
+        "đánh giá",
+        "quyết định",
+        "lập ngân sách",
+        "chẩn đoán"
+      ],
+      "meanings": {
+        "light": [
+          "Tùy chọn cân",
+          "So sánh giá",
+          "Xác định giá trị của một tùy chọn so với tùy chọn khác",
+          "Khai thác các nguồn lực để kiếm sống",
+          "Đưa ra những lựa chọn khó khăn dựa trên những gì tốt nhất cho cơ thể hoặc sổ tiết kiệm của bạn",
+          "Nhìn vào dòng dưới cùng",
+          "Hỏi ý kiến thứ hai về vấn đề sức khoẻ"
+        ],
+        "shadow": [
+          "Tham gia vào việc so sánh giá vô tận",
+          "Trì hoãn quyết định mua vì sợ sau này tìm được giá trị tốt hơn một chút",
+          "Mua thứ gì đó mà không quan tâm đến giá trị",
+          "Phá vỡ ngân sách của bạn với các chi phí không cần thiết",
+          "Tham gia vào hành vi mà không quan tâm đến việc cơ thể hoặc sổ ngân hàng của bạn sẽ bị ảnh hưởng như thế nào"
+        ]
+      },
+      "Numerology": "2 (The Other: duality, division, debate)",
+      "Astrology": "Jupiter in Capricorn",
+      "Affirmation": "\"Before taking action, I consider costs.\"",
+      "Questions to Ask": [
+        "Những giá trị nào chi phối quyết định của tôi?",
+        "Tôi sẵn sàng hy sinh một chút niềm vui bây giờ để có được nhiều niềm vui hơn sau này?",
+        "Với tình hình hiện tại của tôi, hành động nào sẽ mang lại cho tôi nhiều hơn những gì tôi thực sự cần?"
+      ],
+      "nameVn": "Hai của Pentials"
+    },
+    {
+      "name": "Three of Pentacles",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p03.jpg",
+      "fortune_telling": [
+        "Một hợp đồng đô la cao đang ở trong tương lai của bạn",
+        "Nếu bạn làm việc chăm chỉ, bạn sẽ thành công"
+      ],
+      "keywords": [
+        "biểu hiện",
+        "sản xuất",
+        "làm việc",
+        "đóng góp"
+      ],
+      "meanings": {
+        "light": [
+          "Kết thúc một dự án",
+          "Thiết lập và đáp ứng các tiêu chuẩn",
+          "Thực hiện theo thông số kỹ thuật",
+          "Làm cho điều gì đó được người khác coi trọng",
+          "Tạo ra một cái gì đó mới",
+          "Thực hiện phần của bạn trong một dự án nhóm",
+          "Cung cấp chính xác những gì người khác yêu cầu"
+        ],
+        "shadow": [
+          "Chiều theo sở thích của người khác",
+          "Không thực hiện được những gì bạn đã hứa",
+          "Không cung cấp công việc tốt nhất của bạn trừ khi được giám sát chặt chẽ",
+          "Bỏ qua hoặc phá vỡ thỏa thuận với những người đã đầu tư vào bạn",
+          "Từ chối làm phần việc của bạn",
+          "Không tuân thủ thỏa thuận được vạch ra rõ ràng với chính bạn hoặc người khác"
+        ]
+      },
+      "Numerology": "3 (The Result: expression, productivity, output)",
+      "Astrology": "Mars in Capricorn",
+      "Affirmation": "\"My work produces results.\"",
+      "Questions to Ask": [
+        "Làm thế nào tôi có thể làm được nhiều việc hơn?",
+        "Điều gì được mong đợi ở tôi? Tôi đóng vai trò lớn như thế nào trong việc kiểm soát những kỳ vọng đó?",
+        "Những gì đã được đồng ý? Thỏa thuận đó đã được tuân thủ tốt đến mức nào?"
+      ],
+      "nameVn": "Ba của Pentials"
+    },
+    {
+      "name": "Four of Pentacles",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p04.jpg",
+      "fortune_telling": [
+        "A rainy day is coming—it's time to save"
+      ],
+      "keywords": [
+        "bảo vệ",
+        "bảo tồn",
+        "bảo quản",
+        "an toàn"
+      ],
+      "meanings": {
+        "light": [
+          "Tiết kiệm cho ngày mưa",
+          "Ăn chay như một phần của thực hành tâm linh",
+          "Ăn kiêng để cải thiện cơ thể",
+          "Kiêng quan hệ tình dục như một cách tôn vinh truyền thống tâm linh hoặc lời hứa cá nhân",
+          "Bảo thủ về mặt tài chính",
+          "Thành lập quỹ ủy thác",
+          "Mở tài khoản tiết kiệm"
+        ],
+        "shadow": [
+          "keo kiệt",
+          "Từ chối tiêu số tiền cần thiết",
+          "Từ chối quan hệ tình dục với đối tác của bạn",
+          "Chỉ quan tâm đến nhu cầu của riêng mình mà không quan tâm đến nhu cầu của người khác",
+          "Chi một đô la để tiết kiệm một xu",
+          "Không thể trở thành người quản lý tốt những phước lành mà bạn đã được ban tặng"
+        ]
+      },
+      "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+      "Astrology": "Sun in Capricorn",
+      "Affirmation": "\"I use my resources wisely.\"",
+      "Questions to Ask": [
+        "Yếu tố nào quyết định mức độ bảo thủ hay hào phóng của bạn?",
+        "Những thứ gì phải được bảo tồn bằng mọi giá?",
+        "Khi nào thì tham lam hay keo kiệt là một đặc điểm tốt? Khi nào sự hào phóng có thể chống lại bạn?"
+      ],
+      "nameVn": "Bốn của Pentials"
+    },
+    {
+      "name": "Five of Pentacles",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p05.jpg",
+      "fortune_telling": [
+        "Finances are getting tighter",
+        "Chuẩn bị cho sự thụt lùi"
+      ],
+      "keywords": [
+        "nghèo đói",
+        "sự túng quẫn",
+        "cần",
+        "khủng hoảng"
+      ],
+      "meanings": {
+        "light": [
+          "Nhận biết nhu cầu của bạn và hành động để đáp ứng chúng",
+          "Làm nhiều nhất có thể với những gì bạn có ít",
+          "Thừa nhận bạn cần giúp đỡ",
+          "Đón nhận sự trợ giúp đến với bạn",
+          "Focusing on what you have versus what you don't",
+          "Đi tìm ánh sáng cuối đường hầm"
+        ],
+        "shadow": [
+          "Phóng đại nhu cầu tài chính hoặc vật chất của bạn",
+          "Chấp nhận tâm lý nghèo đói",
+          "Từ chối hỗ trợ bản thân",
+          "Từ chối lời đề nghị hỗ trợ",
+          "Đóng vai liệt sĩ",
+          "Từ chối các cơ hội cải thiện sức khỏe hoặc tài chính của bạn",
+          "Đắm mình trong đau khổ"
+        ]
+      },
+      "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+      "Astrology": "Mercury in Taurus",
+      "Affirmation": "\"I have faith that what I need will appear.\"",
+      "Questions to Ask": [
+        "Tôi thiếu những nguồn lực quan trọng nào?",
+        "Những người hoặc nhóm nào sẽ đến trợ giúp tôi nếu tôi yêu cầu?",
+        "Tinh thần nghèo khó có thể ảnh hưởng đến tình trạng thể chất hoặc tài chính của tôi như thế nào?"
+      ],
+      "nameVn": "Năm Pentials"
+    },
+    {
+      "name": "Six of Pentacles",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p06.jpg",
+      "fortune_telling": [
+        "Khi bạn cần giúp đỡ, hãy yêu cầu điều đó",
+        "Tuy nhiên, hãy nhớ rằng: những gì bạn nhận được có thể bị giới hạn bởi những gì bạn đã trao cho người khác trong quá khứ."
+      ],
+      "keywords": [
+        "từ thiện",
+        "sự công bằng",
+        "hợp tác",
+        "chia sẻ"
+      ],
+      "meanings": {
+        "light": [
+          "Dành thời gian, tiền bạc hoặc công sức cho một tổ chức từ thiện",
+          "Tham gia vào một nỗ lực nhóm",
+          "Cho người khác mượn tài nguyên của bạn mà không mong nhận lại bất cứ điều gì",
+          "Đảm bảo mọi người đều được đối xử bình đẳng",
+          "Cùng nhau hướng tới một mục tiêu chung",
+          "Phân phối lại của cải, thời gian hoặc sự chú ý",
+          "thuế thập phân",
+          "Chia sẻ tín dụng cho sự thành công của bạn"
+        ],
+        "shadow": [
+          "Cho vay như một phương tiện để giành quyền kiểm soát ai đó",
+          "Dùng việc từ thiện để thu hút sự chú ý về mình",
+          "Phân chia công việc hoặc nguồn lực không công bằng",
+          "Không thực hiện được phần việc của mình trong nỗ lực của nhóm",
+          "Bỏ qua các nghĩa vụ và cam kết"
+        ]
+      },
+      "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+      "Astrology": "Moon in Taurus",
+      "Affirmation": "\"Knowing I will receive more, I share my resources freely.\"",
+      "Questions to Ask": [
+        "Tôi cảm thấy thế nào về hoạt động từ thiện? Về việc cho nó? Về việc nhận nó?",
+        "Làm sao tôi có thể biết liệu tôi có đối xử công bằng với người khác hay không?",
+        "Tôi có thể cho đi điều gì mà không ai khác có thể?"
+      ],
+      "nameVn": "Sáu của Pentials"
+    },
+    {
+      "name": "Seven of Pentacles",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p07.jpg",
+      "fortune_telling": [
+        "Mọi chuyện sẽ không diễn ra như mong đợi",
+        "Nhặt các mảnh và chuẩn bị đi tiếp"
+      ],
+      "keywords": [
+        "đánh giá",
+        "đánh giá",
+        "đánh giá lại",
+        "sự phản ánh"
+      ],
+      "meanings": {
+        "light": [
+          "Đo lường tiến độ hướng tới mục tiêu của bạn",
+          "Nhìn vào kết quả với mục tiêu cải thiện hiệu suất",
+          "Hỏi: \"Tôi hạnh phúc thế nào?\"",
+          "Đưa ra các ý tưởng để cải thiện sức khỏe hoặc sự thịnh vượng của bạn",
+          "Quyết định đã đến lúc phải thay đổi",
+          "Bày tỏ ý kiến trung thực"
+        ],
+        "shadow": [
+          "Bị phân tâm bởi những suy nghĩ u sầu",
+          "Khát khao “ngày xưa tươi đẹp”",
+          "Tự trách mình vì mất đi cơ hội",
+          "Đánh giá công việc của chính bạn một cách khắc nghiệt",
+          "Giữ người khác theo những tiêu chuẩn không phù hợp",
+          "Từ chối tham gia vào một dự án, sau đó than vãn về chất lượng của kết quả"
+        ]
+      },
+      "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+      "Astrology": "Saturn in Taurus",
+      "Affirmation": "\"To stay on target, I measure my progress.\"",
+      "Questions to Ask": [
+        "Tôi đã đáp ứng được mong đợi của mình ở mức độ nào?",
+        "Các điều kiện thành công là gì?",
+        "Làm thế nào tôi có thể hạnh phúc hơn với những tiến bộ tôi đã đạt được?"
+      ],
+      "nameVn": "Seven of Pentacles"
+    },
+    {
+      "name": "Eight of Pentacles",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p08.jpg",
+      "fortune_telling": [
+        "Ngừng phân tích, nghiên cứu và phác thảo quá mức",
+        "Thắt dây an toàn và hoàn thành công việc"
+      ],
+      "keywords": [
+        "nỗ lực",
+        "siêng năng làm việc",
+        "kỹ năng"
+      ],
+      "meanings": {
+        "light": [
+          "Làm hết sức mình",
+          "Mang lại sự nhiệt tình và nhiệt huyết cho công việc của bạn",
+          "Hãy nỗ lực để trở thành người tốt nhất có thể",
+          "Tìm công việc phù hợp với bạn",
+          "Chăm chút từ những chi tiết nhỏ",
+          "Trở thành người thợ lành nghề",
+          "Xây dựng một cái gì đó bằng tay của bạn",
+          "Làm quà tặng handmade"
+        ],
+        "shadow": [
+          "Làm việc cho đến chết",
+          "Làm việc nửa vời hoặc cẩu thả",
+          "Tiếp tục làm công việc bạn ghét",
+          "Mua quà thiếu suy nghĩ",
+          "Sản xuất tác phẩm với tay nghề kém chất lượng",
+          "Vội vàng làm việc của bạn",
+          "Từ chối cơ hội tìm hiểu thêm về nghề của bạn"
+        ]
+      },
+      "Numerology": "8 (The Action: movement, outer work, swiftness)",
+      "Astrology": "Sun in Virgo",
+      "Affirmation": "\"I give myself wholeheartedly to the task of the moment.\"",
+      "Questions to Ask": [
+        "Đã bao lâu rồi bạn chưa \"mất công\"?",
+        "Làm thế nào bạn có thể cải thiện mức độ cống hiến và tập trung của mình?",
+        "Bạn làm công việc gì tốt nhất? Điều gì ở công việc đó hấp dẫn bạn?"
+      ],
+      "nameVn": "Tám của Pentials"
+    },
+    {
+      "name": "Nine of Pentacles",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p09.jpg",
+      "fortune_telling": [
+        "Cho đến khi bạn đánh giá cao những gì bạn có, bạn sẽ không may mắn nhận được nhiều hơn"
+      ],
+      "keywords": [
+        "đào tạo",
+        "kỷ luật",
+        "sự tự tin",
+        "đủ rồi"
+      ],
+      "meanings": {
+        "light": [
+          "Đầu tư thời gian vào việc học hoặc dạy một nhiệm vụ khó khăn",
+          "Kiềm chế bản thân khỏi những thái cực về thể chất hoặc tài chính",
+          "Hy sinh như một cách để đạt được mục tiêu lớn hơn",
+          "Chia một nhiệm vụ phức tạp thành các bước đơn giản",
+          "Muốn những gì bạn có",
+          "Biết sự khác biệt giữa nhu cầu và mong muốn"
+        ],
+        "shadow": [
+          "Được giao một nhiệm vụ mà không được đào tạo để thực hiện nó",
+          "Theo đuổi một vị trí mà bạn không đủ tiêu chuẩn",
+          "Bất chấp yêu cầu",
+          "Từ chối dành đủ thời gian hoặc sự chú ý khi tìm hiểu về điều gì đó hoặc ai đó mới",
+          "Luôn khao khát nhiều hơn"
+        ]
+      },
+      "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+      "Astrology": "Venus in Virgo",
+      "Affirmation": "\"I know enough to be confident in my decisions.\"",
+      "Questions to Ask": [
+        "Nếu bạn không thể có được thứ bạn muốn, bạn sẽ làm thế nào?",
+        "Bạn có thể thực hiện một nhiệm vụ phức tạp dễ dàng hơn bằng cách chia nó thành các bước nhỏ hơn không?",
+        "Bạn kiên nhẫn đến mức nào trong quá trình học? Với chính mình? Với những người khác?"
+      ],
+      "nameVn": "Chín Pentials"
+    },
+    {
+      "name": "Ten of Pentacles",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p10.jpg",
+      "fortune_telling": [
+        "Số tiền lớn sẽ đến trong tương lai gần",
+        "Mong đợi một phước lành mạnh mẽ sẽ đến với bạn"
+      ],
+      "keywords": [
+        "sự giàu có",
+        "sự phong phú",
+        "mua lại",
+        "lòng tham"
+      ],
+      "meanings": {
+        "light": [
+          "Kỷ niệm phước lành vật chất và tài chính của bạn",
+          "Nhận ra bạn may mắn hay may mắn như thế nào",
+          "Hài lòng với thành tích thể chất và tài chính của bạn",
+          "Tận dụng tốt nhất thời điểm “thừa thãi”",
+          "Thưởng thức một bữa tiệc",
+          "Tặng quà cho bạn bè hoặc gia đình"
+        ],
+        "shadow": [
+          "Tiêu hết tiền vào những món quà và tài sản xa hoa",
+          "Cố gắng quá mức để gây ấn tượng với người khác bằng sự giàu có hoặc vóc dáng của bạn",
+          "Tặng một món quà đắt tiền không phù hợp như một cách để cầu xin sự ưu ái",
+          "Bị ám ảnh về các vấn đề cân nặng, sức khỏe hoặc tài chính",
+          "Luôn hỏi: “Trong đó có lợi gì cho tôi?”"
+        ]
+      },
+      "Numerology": "10 (The End: finality, completion, exhaustion)",
+      "Astrology": "Mercury in Virgo",
+      "Affirmation": "\"I keep physical and financial matters in perspective.\"",
+      "Questions to Ask": [
+        "Tôi thực sự cần bao nhiêu thứ?",
+        "Tôi cảm thấy thế nào về sự giàu có và phong phú? Làm cách nào để xác định các thuật ngữ này?",
+        "Làm thế nào việc từ bỏ một số tài sản có thể mở ra cơ hội cho sự phát triển?"
+      ],
+      "nameVn": "Mười Pentials"
+    },
+    {
+      "name": "Page of Pentacles",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p11.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một chàng trai hoặc cô gái trẻ với phong thái trần tục, thực tế, có thể sinh ra là Bạch Dương, Kim Ngưu hoặc Song Tử, người luôn khuyến khích bạn chấp nhận rủi ro về tài chính hoặc tình dục một cách tinh nghịch."
+      ],
+      "keywords": [
+        "tính thực tiễn",
+        "sự thịnh vượng",
+        "học tập",
+        "tăng trưởng",
+        "tuổi thiếu niên"
+      ],
+      "meanings": {
+        "light": [
+          "Tìm hiểu giá trị của một đô la",
+          "Bắt đầu kế hoạch tiết kiệm",
+          "Thực hiện những bước đầu tiên để thoát khỏi nợ nần",
+          "Học các nhiệm vụ thể chất mới",
+          "Khám phá giới tính của bạn",
+          "Khởi động chế độ ăn kiêng, chương trình nâng tạ hoặc nỗ lực liên quan đến sức khỏe",
+          "Học bằng cách làm"
+        ],
+        "shadow": [
+          "Cố gắng tỏ ra khỏe mạnh hoặc giàu có hơn thực tế",
+          "Tiêu tiền một cách bừa bãi",
+          "Sống nghiêm túc cho ngày hôm nay, không nghĩ tới ngày mai",
+          "Có thái độ non nớt đối với tình dục và tình dục",
+          "Lấy sự giàu có hay sắc đẹp làm cái cớ để không phải học hỏi và trưởng thành"
+        ]
+      },
+      "Elemental": "Earth of Earth.",
+      "Affirmation": "\"I am physically and financially responsible.\"",
+      "Questions to Ask": [
+        "Làm thế nào bạn có thể có thêm kinh nghiệm tài chính hoặc tình dục mà không phải mạo hiểm sinh kế hoặc sức khỏe của mình?",
+        "Học tập thực hành có thể đóng vai trò như thế nào trong hoàn cảnh của bạn?",
+        "Lựa chọn thiết thực nhất mà bạn có thể thực hiện là gì?"
+      ],
+      "nameVn": "Trang của Pentacles"
+    },
+    {
+      "name": "Knight of Pentacles",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p12.jpg",
+      "fortune_telling": [
+        "Một người keo kiệt có thể khiển trách bạn vì tiêu tiền",
+        "Hãy chuẩn bị để bảo vệ một quyết định kinh tế hoặc tình dục"
+      ],
+      "keywords": [
+        "thận trọng",
+        "tiêu điểm",
+        "chủ nghĩa hiện thực",
+        "phát minh"
+      ],
+      "meanings": {
+        "light": [
+          "Tiêu tiền một cách khôn ngoan",
+          "Tiết kiệm cho ngày mưa",
+          "Chú ý đến các chi tiết vật chất hoặc tài chính",
+          "Biết mỗi đô la đi đâu",
+          "Quan hệ tình dục an toàn",
+          "Ưu tiên sự thật hơn \"cảm xúc tốt đẹp\"",
+          "Tìm cách sáng tạo để “làm được” với nguồn lực sẵn có",
+          "Completing a new invention"
+        ],
+        "shadow": [
+          "Ném thận trọng vào bốn cơn gió",
+          "Chi tiêu mà không quan tâm đến hậu quả",
+          "Chi tiêu xa hoa khi thiếu thốn nhu yếu phẩm",
+          "Thoát khỏi căng thẳng bằng cách tiêu tiền",
+          "Bị ám ảnh bởi những chi tiết vật chất hoặc tài chính nhỏ nhặt",
+          "Luôn theo đuổi một món trang sức mới",
+          "Sao chép tác phẩm của người khác và coi đó là của mình"
+        ]
+      },
+      "Elemental": "Air of Earth.",
+      "Affirmation": "\"I temper my actions with cautious optimism.\"",
+      "Questions to Ask": [
+        "Sự khác biệt giữa thận trọng và sợ hãi là gì?",
+        "Làm thế nào tôi có thể đánh giá tính thực tiễn của những ý tưởng và phương pháp của mình?",
+        "Mục tiêu của tôi thực tế đến mức nào?"
+      ],
+      "nameVn": "Hiệp sĩ Pentials"
+    },
+    {
+      "name": "Queen of Pentacles",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p13.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một người phụ nữ có bản chất cởi mở, gợi cảm, có khả năng sinh từ ngày 13 đến 31 tháng 12, người sử dụng sự hấp dẫn gợi cảm và lời hứa khen thưởng để thuyết phục người khác theo quan điểm của mình."
+      ],
+      "keywords": [
+        "sang trọng",
+        "sự thoải mái",
+        "sự tháo vát",
+        "sự hào phóng",
+        "sự thịnh vượng"
+      ],
+      "meanings": {
+        "light": [
+          "Đánh giá cao đồ ăn ngon, rượu ngon, nghệ thuật đẹp, thân hình đẹp hoặc bất kỳ điều gì tốt đẹp hơn trong cuộc sống",
+          "Tận hưởng tình dục lành mạnh",
+          "Đối xử với bản thân",
+          "Thỉnh thoảng vung tiền mua những món đồ \"có thì tốt\"",
+          "Khen thưởng ai đó với mức đền bù cao hơn và vượt quá mong đợi",
+          "Có tất cả"
+        ],
+        "shadow": [
+          "Đắm mình trong sự háu ăn hoặc tham lam",
+          "Trở nên vô độ",
+          "Giảm bớt tác động của các món ăn vặt bằng cách thưởng thức chúng quá thường xuyên",
+          "Cung cấp sự thoải mái về thể chất mà không cung cấp cho nhu cầu tinh thần",
+          "Cho phép cảm giác được hưởng làm bóp méo lòng biết ơn của bạn đối với những gì bạn được trao"
+        ]
+      },
+      "Elemental": "Water of Earth.",
+      "Affirmation": "\"I relish the best this world has to offer.\"",
+      "Questions to Ask": [
+        "Làm thế nào để tôi định nghĩa sự sang trọng?",
+        "Tôi có khả năng tận hưởng khoái lạc nhục dục ở mức độ nào?",
+        "Tôi sẽ phải từ bỏ điều gì để \"có được tất cả?\""
+      ],
+      "nameVn": "Nữ hoàng của Pentials"
+    },
+    {
+      "name": "King of Pentacles",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p14.jpg",
+      "fortune_telling": [
+        "Lá bài này đại diện cho một người đàn ông lớn tuổi với tinh thần bảo thủ về mặt tài chính, xã hội và chính trị, có thể sinh từ ngày 12 tháng 8 đến ngày 11 tháng 9, người nổi tiếng là người hay để tiền vào mồm."
+      ],
+      "keywords": [
+        "sự ổn định",
+        "sự đáng tin cậy",
+        "sự tự tin",
+        "sự can thiệp"
+      ],
+      "meanings": {
+        "light": [
+          "Trở nên không nợ nần",
+          "Có quá đủ để vượt qua",
+          "Đóng góp vào kế hoạch tiết kiệm",
+          "Nhận một công việc mới với mục tiêu thăng tiến trong sự nghiệp của bạn",
+          "Mua bảo hiểm nhân thọ hoặc sức khỏe",
+          "Tự tin trong phòng ngủ",
+          "Đảm nhận vai trò thực thi khi được yêu cầu làm như vậy"
+        ],
+        "shadow": [
+          "Trở nên bảo thủ đến mức bạn chống lại mọi thay đổi chỉ dựa trên nguyên tắc",
+          "Bỏ qua những đổi mới dưới danh nghĩa bảo tồn truyền thống",
+          "Tự mãn hoặc tự mãn",
+          "Trở nên tận tâm một cách tàn nhẫn vì lợi nhuận hoặc niềm vui",
+          "Là ích kỷ về mặt tình dục",
+          "Ra lệnh cho người khác, đặc biệt khi bạn không có quyền làm điều đó"
+        ]
+      },
+      "Elemental": "Fire of Earth.",
+      "Affirmation": "\"I embody confidence and fairness.\"",
+      "Questions to Ask": [
+        "Làm thế nào bạn có thể xử lý các chi phí một cách tự tin và trưởng thành hơn?",
+        "Bạn đáng tin cậy đến mức nào? Người khác sẽ đánh giá bạn đáng tin cậy đến mức nào?",
+        "Quan điểm bảo thủ có giá trị ở mức độ nào? Tại thời điểm nào nó trở thành một gánh nặng hơn là một phước lành?"
+      ],
+      "nameVn": "Vua của Pentials"
+    }
+  ]
+}
