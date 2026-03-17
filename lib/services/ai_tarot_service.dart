@@ -1,6 +1,8 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
+import 'package:http/http.dart' as http;
 import '../models/tarot_card.dart';
 
 class AiTarotService {
@@ -62,15 +64,17 @@ RESPONSE FORMAT (JSON)
 }
 ''';
 
-  final GenerativeModel _model;
+  final GenerativeModel? _model;
   final String _apiKey;
 
   AiTarotService({String? apiKey})
     : _apiKey = apiKey ?? dotenv.env['GEMINI_API_KEY'] ?? '',
-      _model = GenerativeModel(
-        model: 'gemini-2.5-flash',
-        apiKey: apiKey ?? dotenv.env['GEMINI_API_KEY'] ?? '',
-      );
+      _model = kIsWeb
+          ? null
+          : GenerativeModel(
+            model: 'gemini-2.5-flash',
+            apiKey: apiKey ?? dotenv.env['GEMINI_API_KEY'] ?? '',
+          );
 
   Future<Map<String, dynamic>> generateReading({
     required String? topic,
@@ -79,10 +83,6 @@ RESPONSE FORMAT (JSON)
     required List<TarotCard> drawnCards,
   }) async {
     try {
-      if (_apiKey.isEmpty) {
-        throw Exception('Generative AI API Key is missing.');
-      }
-
       String prompt = _defaultPrompt
           .replaceAll('{{topic}}', topic ?? 'Tổng quan')
           .replaceAll(
@@ -92,15 +92,43 @@ RESPONSE FORMAT (JSON)
           .replaceAll('{{spread}}', _getSpreadType(cardCount))
           .replaceAll('{{cards}}', _formatCards(drawnCards, cardCount));
 
-      final response = await _model.generateContent([Content.text(prompt)]);
-      final text = response.text;
+      String responseText;
 
-      if (text == null || text.isEmpty) {
+      if (kIsWeb) {
+        // Call the secure Vercel Proxy on Web
+        final proxyUrl = Uri.parse('/api/interpret');
+        final proxyResponse = await http.post(
+          proxyUrl,
+          headers: {'Content-Type': 'application/json'},
+          body: jsonEncode({'prompt': prompt}),
+        );
+
+        if (proxyResponse.statusCode != 200) {
+          throw Exception(
+            'Proxy Error (${proxyResponse.statusCode}): ${proxyResponse.body}',
+          );
+        }
+
+        final proxyData = jsonDecode(proxyResponse.body);
+        responseText = proxyData['text'] ?? '';
+      } else {
+        // Direct call on Mobile/Desktop
+        if (_apiKey.isEmpty) {
+          throw Exception('Generative AI API Key is missing.');
+        }
+        if (_model == null) {
+          throw Exception('Generative Model not initialized.');
+        }
+        final response = await _model.generateContent([Content.text(prompt)]);
+        responseText = response.text ?? '';
+      }
+
+      if (responseText.isEmpty) {
         throw Exception('Empty response from AI.');
       }
 
       // Very robust JSON extraction because LLMs sometimes wrap JSON in markdown block ticks
-      String cleanJson = text;
+      String cleanJson = responseText;
       if (cleanJson.contains('```json')) {
         cleanJson = cleanJson.split('```json')[1].split('```')[0].trim();
       } else if (cleanJson.contains('```')) {
@@ -116,7 +144,7 @@ RESPONSE FORMAT (JSON)
 
       return jsonDecode(cleanJson) as Map<String, dynamic>;
     } catch (e) {
-      throw Exception('Failed to generate AI reading: \$e');
+      throw Exception('Failed to generate AI reading: $e');
     }
   }
 
@@ -125,7 +153,7 @@ RESPONSE FORMAT (JSON)
     if (count == 3) return 'Rút 3 lá (Past/Present/Future)';
     if (count == 5) return 'Rút 5 lá (Cross Spread)';
     if (count == 10) return 'Rút 10 lá (Celtic Cross)';
-    return 'Rút \$count lá ngẫu nhiên';
+    return 'Rút $count lá ngẫu nhiên';
   }
 
   String _formatCards(List<TarotCard> cards, int totalCards) {
@@ -144,7 +172,7 @@ RESPONSE FORMAT (JSON)
         '- Vị trí: $position\n  Lá bài: $name\n  Chiều: $orientation',
       );
     }
-    return formatted.join('\\n\\n');
+    return formatted.join('\n\n');
   }
 
   String _getSpreadLabel(int totalCards, int idx) {
@@ -172,6 +200,6 @@ RESPONSE FORMAT (JSON)
       ];
       return labels[idx];
     }
-    return "Lá \${idx + 1}";
+    return "Lá ${idx + 1}";
   }
 }

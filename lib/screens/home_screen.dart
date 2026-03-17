@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/tarot_provider.dart';
@@ -270,10 +271,19 @@ class _HomeScreenState extends State<HomeScreen> {
           fit: StackFit.expand,
           children: [
             // Background image
-            Image.network(
-              _bgImageUrl,
+            CachedNetworkImage(
+              imageUrl: _bgImageUrl,
               fit: BoxFit.cover,
-              errorBuilder: (_, __, ___) => Container(
+              placeholder: (context, url) => Container(
+                decoration: const BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: [Color(0xFF2D1B69), Color(0xFF0F0C29)],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                  ),
+                ),
+              ),
+              errorWidget: (context, url, error) => Container(
                 decoration: const BoxDecoration(
                   gradient: LinearGradient(
                     colors: [Color(0xFF2D1B69), Color(0xFF0F0C29)],
@@ -513,6 +523,7 @@ class _HomeScreenState extends State<HomeScreen> {
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
+      useSafeArea: true,
       backgroundColor: Colors.transparent,
       builder: (BuildContext ctx) {
         return StatefulBuilder(
@@ -528,231 +539,238 @@ class _HomeScreenState extends State<HomeScreen> {
                   borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
                   boxShadow: [BoxShadow(color: Colors.black54, blurRadius: 20)],
                 ),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    // Handle bar
-                    Center(
-                      child: Container(
-                        width: 40,
-                        height: 4,
-                        margin: const EdgeInsets.only(bottom: 20),
-                        decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(2),
-                        ),
-                      ),
-                    ),
-
-                    const Text(
-                      'Chuẩn bị giải bài',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontFamily: 'Be Vietnam Pro',
-                        fontSize: 22,
-                        fontWeight: FontWeight.bold,
-                        color: _gold,
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      'Tập trung năng lượng vào vấn đề bạn quan tâm.',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        color: Colors.white.withOpacity(0.6),
-                        fontSize: 14,
-                      ),
-                    ),
-                    const SizedBox(height: 24),
-
-                    const Text(
-                      'CHỌN CHỦ ĐỀ',
-                      style: TextStyle(
-                        fontSize: 12,
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 1.2,
-                        color: Colors.white54,
-                      ),
-                    ),
-                    const SizedBox(height: 12),
-                    Wrap(
-                      spacing: 8,
-                      runSpacing: 12,
-                      children: topics.map((topic) {
-                        final isSelected = selectedTopic == topic['label'];
-                        return ChoiceChip(
-                          label: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              Icon(
-                                topic['icon'] as IconData,
-                                size: 16,
-                                color: isSelected ? Colors.white : _gold,
-                              ),
-                              const SizedBox(width: 8),
-                              Text(topic['label'] as String),
-                            ],
-                          ),
-                          selected: isSelected,
-                          onSelected: (selected) {
-                            setModalState(() {
-                              selectedTopic = selected ? topic['label'] : null;
-                            });
-                          },
-                          backgroundColor: _midBg,
-                          selectedColor: _purple.withOpacity(0.4),
-                          labelStyle: TextStyle(
-                            color: isSelected ? Colors.white : Colors.white70,
-                            fontWeight: isSelected
-                                ? FontWeight.bold
-                                : FontWeight.normal,
-                          ),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(12),
-                            side: BorderSide(
-                              color: isSelected ? _gold : Colors.white12,
-                            ),
-                          ),
-                        );
-                      }).toList(),
-                    ),
-                    const SizedBox(height: 24),
-
-                    const Text(
-                      'CÂU HỎI CỦA BẠN (TÙY CHỌN)',
-                      style: TextStyle(
-                        fontSize: 12,
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 1.2,
-                        color: Colors.white54,
-                      ),
-                    ),
-                    const SizedBox(height: 12),
-                    TextField(
-                      controller: questionController,
-                      style: const TextStyle(color: Colors.white),
-                      decoration: InputDecoration(
-                        hintText: _getHintTextForTopic(selectedTopic),
-                        hintStyle: TextStyle(
-                          color: Colors.white.withOpacity(0.3),
-                        ),
-                        filled: true,
-                        fillColor: _midBg,
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(12),
-                          borderSide: BorderSide.none,
-                        ),
-                        focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(12),
-                          borderSide: BorderSide(
-                            color: _purple.withOpacity(0.5),
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      // Handle bar
+                      Center(
+                        child: Container(
+                          width: 40,
+                          height: 4,
+                          margin: const EdgeInsets.only(bottom: 20),
+                          decoration: BoxDecoration(
+                            color: Colors.white24,
+                            borderRadius: BorderRadius.circular(2),
                           ),
                         ),
-                        contentPadding: const EdgeInsets.symmetric(
-                          horizontal: 16,
-                          vertical: 16,
+                      ),
+
+                      const Text(
+                        'Chuẩn bị giải bài',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontFamily: 'Be Vietnam Pro',
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold,
+                          color: _gold,
                         ),
                       ),
-                    ),
-                    const SizedBox(height: 32),
+                      const SizedBox(height: 8),
+                      Text(
+                        'Tập trung năng lượng vào vấn đề bạn quan tâm.',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Colors.white.withOpacity(0.6),
+                          fontSize: 14,
+                        ),
+                      ),
+                      const SizedBox(height: 24),
 
-                    // ─── AI Limit Banner ───
-                    Consumer<TarotProvider>(
-                      builder: (context, provider, child) {
-                        if (!provider.canUseAi) {
-                          return Container(
-                            margin: const EdgeInsets.only(bottom: 24),
-                            padding: const EdgeInsets.all(12),
-                            decoration: BoxDecoration(
-                              color: Colors.redAccent.withOpacity(0.1),
-                              borderRadius: BorderRadius.circular(12),
-                              border: Border.all(
-                                color: Colors.redAccent.withOpacity(0.3),
-                              ),
-                            ),
-                            child: Row(
+                      const Text(
+                        'CHỌN CHỦ ĐỀ',
+                        style: TextStyle(
+                          fontSize: 12,
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 1.2,
+                          color: Colors.white54,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      Wrap(
+                        spacing: 8,
+                        runSpacing: 12,
+                        children: topics.map((topic) {
+                          final isSelected = selectedTopic == topic['label'];
+                          return ChoiceChip(
+                            label: Row(
+                              mainAxisSize: MainAxisSize.min,
                               children: [
-                                const Icon(
-                                  Icons.lock_clock,
-                                  color: Colors.redAccent,
-                                  size: 20,
+                                Icon(
+                                  topic['icon'] as IconData,
+                                  size: 16,
+                                  color: isSelected ? Colors.white : _gold,
                                 ),
                                 const SizedBox(width: 8),
-                                Expanded(
-                                  child: Text(
-                                    'Bạn đã dùng hết ${TarotProvider.maxAiPerDay} lượt luận giải nâng cao hôm nay.\nBài rút vẫn sẽ hiển thị luận giải cơ bản.',
-                                    style: TextStyle(
-                                      color: Colors.white.withOpacity(0.8),
-                                      fontSize: 12,
-                                      height: 1.4,
-                                    ),
-                                  ),
-                                ),
+                                Text(topic['label'] as String),
                               ],
                             ),
-                          );
-                        }
-                        return const SizedBox.shrink();
-                      },
-                    ),
-
-                    // ─── Action Button ───
-                    Consumer<TarotProvider>(
-                      builder: (context, provider, child) {
-                        final canUseAi = provider.canUseAi;
-
-                        return ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: canUseAi ? _gold : Colors.white24,
-                            foregroundColor: canUseAi
-                                ? _deepBg
-                                : Colors.white70,
-                            padding: const EdgeInsets.symmetric(vertical: 16),
+                            selected: isSelected,
+                            onSelected: (selected) {
+                              setModalState(() {
+                                selectedTopic = selected
+                                    ? topic['label']
+                                    : null;
+                              });
+                            },
+                            backgroundColor: _midBg,
+                            selectedColor: _purple.withOpacity(0.4),
+                            labelStyle: TextStyle(
+                              color: isSelected ? Colors.white : Colors.white70,
+                              fontWeight: isSelected
+                                  ? FontWeight.bold
+                                  : FontWeight.normal,
+                            ),
                             shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(14),
+                              borderRadius: BorderRadius.circular(12),
+                              side: BorderSide(
+                                color: isSelected ? _gold : Colors.white12,
+                              ),
+                            ),
+                          );
+                        }).toList(),
+                      ),
+                      const SizedBox(height: 24),
+
+                      const Text(
+                        'CÂU HỎI CỦA BẠN (TÙY CHỌN)',
+                        style: TextStyle(
+                          fontSize: 12,
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 1.2,
+                          color: Colors.white54,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      TextField(
+                        controller: questionController,
+                        style: const TextStyle(color: Colors.white),
+                        decoration: InputDecoration(
+                          hintText: _getHintTextForTopic(selectedTopic),
+                          hintStyle: TextStyle(
+                            color: Colors.white.withOpacity(0.3),
+                          ),
+                          filled: true,
+                          fillColor: _midBg,
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                            borderSide: BorderSide.none,
+                          ),
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                            borderSide: BorderSide(
+                              color: _purple.withOpacity(0.5),
                             ),
                           ),
-                          onPressed: () {
-                            // Format question (capitalize first letter, add question mark if missing)
-                            String rawQ = questionController.text.trim();
-                            if (rawQ.isNotEmpty) {
-                              rawQ = rawQ[0].toUpperCase() + rawQ.substring(1);
-                              if (!rawQ.endsWith('?')) {
-                                rawQ += '?';
-                              }
-                            }
+                          contentPadding: const EdgeInsets.symmetric(
+                            horizontal: 16,
+                            vertical: 16,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 32),
 
-                            // Save to provider (nulls if AI limit reached)
-                            ctx.read<TarotProvider>().setTopicAndQuestion(
-                              canUseAi ? selectedTopic : null,
-                              canUseAi ? (rawQ.isEmpty ? null : rawQ) : null,
-                            );
-
-                            // Close modal and navigate
-                            Navigator.pop(ctx);
-                            ctx.read<TarotProvider>().clearDrawnCards();
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) =>
-                                    DrawScreen(cardCount: cardCount),
+                      // ─── AI Limit Banner ───
+                      Consumer<TarotProvider>(
+                        builder: (context, provider, child) {
+                          if (!provider.canUseAi) {
+                            return Container(
+                              margin: const EdgeInsets.only(bottom: 24),
+                              padding: const EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                color: Colors.redAccent.withOpacity(0.1),
+                                borderRadius: BorderRadius.circular(12),
+                                border: Border.all(
+                                  color: Colors.redAccent.withOpacity(0.3),
+                                ),
+                              ),
+                              child: Row(
+                                children: [
+                                  const Icon(
+                                    Icons.lock_clock,
+                                    color: Colors.redAccent,
+                                    size: 20,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Expanded(
+                                    child: Text(
+                                      'Bạn đã dùng hết ${TarotProvider.maxAiPerDay} lượt luận giải nâng cao hôm nay.\nBài rút vẫn sẽ hiển thị luận giải cơ bản.',
+                                      style: TextStyle(
+                                        color: Colors.white.withOpacity(0.8),
+                                        fontSize: 12,
+                                        height: 1.4,
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ),
                             );
-                          },
-                          child: Text(
-                            canUseAi ? 'BẮT ĐẦU TRẢI BÀI' : 'RÚT BÀI (CƠ BẢN)',
-                            style: const TextStyle(
-                              fontSize: 15,
-                              fontWeight: FontWeight.w800,
-                              letterSpacing: 1,
+                          }
+                          return const SizedBox.shrink();
+                        },
+                      ),
+
+                      // ─── Action Button ───
+                      Consumer<TarotProvider>(
+                        builder: (context, provider, child) {
+                          final canUseAi = provider.canUseAi;
+
+                          return ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: canUseAi
+                                  ? _gold
+                                  : Colors.white24,
+                              foregroundColor: canUseAi
+                                  ? _deepBg
+                                  : Colors.white70,
+                              padding: const EdgeInsets.symmetric(vertical: 16),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(14),
+                              ),
                             ),
-                          ),
-                        );
-                      },
-                    ),
-                    const SizedBox(height: 16),
-                  ],
+                            onPressed: () {
+                              // Format question (capitalize first letter, add question mark if missing)
+                              String rawQ = questionController.text.trim();
+                              if (rawQ.isNotEmpty) {
+                                rawQ =
+                                    rawQ[0].toUpperCase() + rawQ.substring(1);
+                                if (!rawQ.endsWith('?')) {
+                                  rawQ += '?';
+                                }
+                              }
+                              ctx.read<TarotProvider>().setTopicAndQuestion(
+                                canUseAi ? selectedTopic : null,
+                                canUseAi ? (rawQ.isEmpty ? null : rawQ) : null,
+                              );
+
+                              // Close modal and navigate
+                              Navigator.pop(ctx);
+                              ctx.read<TarotProvider>().clearDrawnCards();
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      DrawScreen(cardCount: cardCount),
+                                ),
+                              );
+                            },
+                            child: Text(
+                              canUseAi
+                                  ? 'BẮT ĐẦU TRẢI BÀI'
+                                  : 'RÚT BÀI (CƠ BẢN)',
+                              style: const TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w800,
+                                letterSpacing: 1,
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                      const SizedBox(height: 16),
+                    ],
+                  ),
                 ),
               ),
             );

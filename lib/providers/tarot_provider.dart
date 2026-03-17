@@ -5,7 +5,9 @@ import '../services/storage_service.dart';
 import '../services/tarot_service.dart';
 import '../services/ai_tarot_service.dart';
 import '../services/tracking_service.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import '../models/tarot_card.dart';
+import '../utils/constants.dart';
 
 class TarotProvider extends ChangeNotifier {
   final TarotService _service = TarotService();
@@ -44,6 +46,12 @@ class TarotProvider extends ChangeNotifier {
     try {
       // Parallel loading for speed
       await Future.wait([_service.loadCards(), _loadAiUsage()]);
+
+      // Pre-cache images after cards are loaded
+      if (_service.cards.isNotEmpty) {
+        _precacheImages();
+      }
+
       // initUserIdAndTrack should probably be separate to avoid blocking
       await _initUserIdAndTrack();
     } catch (e) {
@@ -232,5 +240,35 @@ class TarotProvider extends ChangeNotifier {
     _selectedTopic = null;
     _currentQuestion = null;
     notifyListeners();
+  }
+
+  void _precacheImages() {
+    // We don't await this as it can happen in the background
+    // and we want to show the UI as soon as possible.
+    // However, the images will be cached for later use.
+
+    final backImageUrl = '${AppConstants.cardImageBaseUrl}/card_back.jpg';
+    debugPrint('Pre-caching card back image: $backImageUrl');
+
+    // Pre-cache the card back
+    // Note: precacheImage requires a BuildContext, which we don't have here.
+    // Using CachedNetworkImage's internal manager instead if possible,
+    // or we can just trigger the download.
+    // Actually, for pre-loading without context, we can use:
+    // DefaultCacheManager().downloadFile(url)
+
+    // For now, let's just use the provider to trigger the load in the background
+    // if we want it to be ready for the UI.
+    // Better way in a provider: just let the UI widgets handle it via CachedNetworkImage,
+    // but if the user wants it *before* opening web (or app), they might mean during loading.
+
+    for (var card in _service.cards) {
+      final url = '${AppConstants.cardImageBaseUrl}/${card.img}';
+      // We don't await each to run them in parallel
+      CachedNetworkImageProvider(url).resolve(ImageConfiguration.empty);
+    }
+
+    // Also pre-cache the back
+    CachedNetworkImageProvider(backImageUrl).resolve(ImageConfiguration.empty);
   }
 }

@@ -1,7 +1,9 @@
 import 'dart:math';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import '../models/tarot_card.dart';
+import '../utils/constants.dart';
 
 class TarotCardWidget extends StatefulWidget {
   final TarotCard card;
@@ -95,7 +97,9 @@ class TarotCardWidgetState extends State<TarotCardWidget>
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(widget.isMini ? 6 : 12),
         image: const DecorationImage(
-          image: AssetImage('assets/images/cards/card_back.jpg'),
+          image: CachedNetworkImageProvider(
+            '${AppConstants.cardImageBaseUrl}/card_back.jpg',
+          ),
           fit: BoxFit.cover,
         ),
         boxShadow: const [
@@ -132,11 +136,13 @@ class TarotCardWidgetState extends State<TarotCardWidget>
           padding: EdgeInsets.all(
             widget.isMini ? 3.0 : 12.0,
           ), // Shrinks padding dynamically
-          child: Image.asset(
-            'assets/images/cards/${widget.card.img}',
-            fit: BoxFit
-                .contain, // Ensures the whole image is visible without cropping
-            errorBuilder: (context, error, stackTrace) => Container(
+          child: CachedNetworkImage(
+            imageUrl: '${AppConstants.cardImageBaseUrl}/${widget.card.img}',
+            fit: BoxFit.contain,
+            placeholder: (context, url) => const Center(
+              child: CircularProgressIndicator(strokeWidth: 2),
+            ),
+            errorWidget: (context, url, error) => Container(
               color: const Color(0xFF4A0E4E),
               child: const Center(
                 child: Icon(Icons.style, color: Colors.white54, size: 40),

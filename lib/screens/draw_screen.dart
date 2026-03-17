@@ -1,8 +1,10 @@
 import 'dart:math';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/tarot_provider.dart';
+import '../utils/constants.dart';
 import 'result_screen.dart';
 
 class DrawScreen extends StatefulWidget {
@@ -455,8 +457,8 @@ class _DrawScreenState extends State<DrawScreen>
                                             ),
                                           ],
                                     image: const DecorationImage(
-                                      image: AssetImage(
-                                        'assets/images/cards/card_back.jpg',
+                                      image: CachedNetworkImageProvider(
+                                        '${AppConstants.cardImageBaseUrl}/card_back.jpg',
                                       ),
                                       fit: BoxFit.cover,
                                     ),
@@ -565,11 +567,19 @@ class _DrawScreenState extends State<DrawScreen>
                 ? ClipRRect(
                     key: const ValueKey('filled'),
                     borderRadius: BorderRadius.circular(10),
-                    child: Image.asset(
-                      'assets/images/cards/card_back.jpg',
+                    child: CachedNetworkImage(
+                      imageUrl:
+                          '${AppConstants.cardImageBaseUrl}/card_back.jpg',
                       width: slotWidth,
                       height: slotHeight,
                       fit: BoxFit.cover,
+                      placeholder: (context, url) => const Center(
+                        child: CircularProgressIndicator(strokeWidth: 2),
+                      ),
+                      errorWidget: (context, url, error) => const Icon(
+                        Icons.error_outline,
+                        color: Colors.white24,
+                      ),
                     ),
                   )
                 : Icon(

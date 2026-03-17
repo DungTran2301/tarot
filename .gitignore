@@ -68,3 +68,5 @@ artifacts/
 # Environment variables
 .env
 .env.*
+.vercel
+.env*.local
